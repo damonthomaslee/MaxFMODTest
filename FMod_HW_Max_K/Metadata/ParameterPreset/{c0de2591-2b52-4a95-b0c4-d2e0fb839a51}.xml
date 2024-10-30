@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{c0de2591-2b52-4a95-b0c4-d2e0fb839a51}">
+		<property name="name">
+			<value>Moon</value>
+		</property>
+		<relationship name="folder">
+			<destination>{9c4daf47-b58b-421f-bf2f-d9176e6c7df9}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{02f91321-46f5-49c6-98ab-8d486ed51895}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{02f91321-46f5-49c6-98ab-8d486ed51895}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
