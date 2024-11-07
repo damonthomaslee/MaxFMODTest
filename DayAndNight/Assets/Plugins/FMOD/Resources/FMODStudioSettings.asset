@@ -380,8 +380,8 @@ MonoBehaviour:
   switchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: ../../../../Downloads/Homework 1 TK/LittleCeleste_TK.fspro
-  sourceBankPath: ../../../../Downloads/Homework 1 TK/Build
+  sourceProjectPath: FMod_HW_Max_K/HWLayers.fspro
+  sourceBankPath: FMod_HW_Max_K/Build
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1

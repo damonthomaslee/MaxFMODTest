@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-6019132149575826145
+--- !u!114 &-1691879419685185440
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -12,33 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
   m_Name: bank:/Master.strings.bank
   m_EditorClassIdentifier: 
-  Path: ../../../../Downloads/Homework 1 TK/Build/Desktop/Master.strings.bank
+  Path: FMod_HW_Max_K/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638578515222131567
+  lastModified: 638666136257448501
   FileSizes:
   - Name: Desktop
     Value: 820
-  Exists: 1
---- !u!114 &-1213677602349497156
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: 
-  Path: ../../../../Downloads/Homework 1 TK/Build/Desktop/Master.bank
-  Name: Master
-  StudioPath: bank:/Master
-  lastModified: 638578515222122773
-  FileSizes:
-  - Name: Desktop
-    Value: 1074720
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -53,46 +33,18 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: -6019132149575826145}
-  - {fileID: -1213677602349497156}
+  - {fileID: -1691879419685185440}
+  - {fileID: 6456510009508752499}
   EditorEvents:
-  - {fileID: 8377067546932889655}
+  - {fileID: 8359953295108419850}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -1213677602349497156}
+  - {fileID: 6456510009508752499}
   StringsBanks:
-  - {fileID: -6019132149575826145}
-  cacheTime: 638578515222131567
+  - {fileID: -1691879419685185440}
+  cacheTime: 638666136257448501
   cacheVersion: 131617
---- !u!114 &8377067546932889655
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/mus_menu_levelselect_loop
-  m_EditorClassIdentifier: 
-  Path: event:/mus_menu_levelselect_loop
-  Guid:
-    Data1: -319553904
-    Data2: 1092404770
-    Data3: 937602700
-    Data4: 508590165
-  Banks:
-  - {fileID: -1213677602349497156}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters:
-  - {fileID: 8620130817993695865}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 41146
---- !u!114 &8620130817993695865
+--- !u!114 &2822314225550770837
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -116,3 +68,51 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &6456510009508752499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMod_HW_Max_K/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638666136257441776
+  FileSizes:
+  - Name: Desktop
+    Value: 1391936
+  Exists: 1
+--- !u!114 &8359953295108419850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/mus_menu_levelselect_loop
+  m_EditorClassIdentifier: 
+  Path: event:/mus_menu_levelselect_loop
+  Guid:
+    Data1: -319553904
+    Data2: 1092404770
+    Data3: 937602700
+    Data4: 508590165
+  Banks:
+  - {fileID: 6456510009508752499}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 2822314225550770837}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 61020
