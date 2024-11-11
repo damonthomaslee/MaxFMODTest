@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: FMod_HW_Max_K/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638666136257448501
+  lastModified: 638669144933124094
   FileSizes:
   - Name: Desktop
-    Value: 820
+    Value: 922
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -35,15 +35,37 @@ MonoBehaviour:
   EditorBanks:
   - {fileID: -1691879419685185440}
   - {fileID: 6456510009508752499}
+  - {fileID: 1345671099277448840}
   EditorEvents:
   - {fileID: 8359953295108419850}
+  - {fileID: 5815872624283178717}
   EditorParameters: []
   MasterBanks:
   - {fileID: 6456510009508752499}
   StringsBanks:
   - {fileID: -1691879419685185440}
-  cacheTime: 638666136257448501
+  cacheTime: 638669144933293563
   cacheVersion: 131617
+--- !u!114 &1345671099277448840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/LeeBank.bank
+  m_EditorClassIdentifier: 
+  Path: FMod_HW_Max_K/Build/Desktop/LeeBank.bank
+  Name: LeeBank
+  StudioPath: bank:/LeeBank
+  lastModified: 638669144933293563
+  FileSizes:
+  - Name: Desktop
+    Value: 528256
+  Exists: 1
 --- !u!114 &2822314225550770837
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68,6 +90,33 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &5815872624283178717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/LeeAsset
+  m_EditorClassIdentifier: 
+  Path: event:/LeeAsset
+  Guid:
+    Data1: -1098001253
+    Data2: 1312954550
+    Data3: -1622058844
+    Data4: 1062783195
+  Banks:
+  - {fileID: 1345671099277448840}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 50311
 --- !u!114 &6456510009508752499
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -83,7 +132,7 @@ MonoBehaviour:
   Path: FMod_HW_Max_K/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638666136257441776
+  lastModified: 638669144933113628
   FileSizes:
   - Name: Desktop
     Value: 1391936
