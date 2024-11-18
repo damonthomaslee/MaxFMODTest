@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: FMod_HW_Max_K/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638669209908664805
+  lastModified: 638675549712944352
   FileSizes:
   - Name: Desktop
-    Value: 922
+    Value: 966
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -39,13 +39,38 @@ MonoBehaviour:
   EditorEvents:
   - {fileID: 8359953295108419850}
   - {fileID: 5815872624283178717}
+  - {fileID: 6681295207727614774}
   EditorParameters: []
   MasterBanks:
   - {fileID: 6456510009508752499}
   StringsBanks:
   - {fileID: -1691879419685185440}
-  cacheTime: 638669209908664805
+  cacheTime: 638675549712944352
   cacheVersion: 131617
+--- !u!114 &986008544235368947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BranchTestMax/Moon
+  m_EditorClassIdentifier: 
+  Name: Moon
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 62204996
+    data2: 1847919116
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &1345671099277448840
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61,7 +86,7 @@ MonoBehaviour:
   Path: FMod_HW_Max_K/Build/Desktop/LeeBank.bank
   Name: LeeBank
   StudioPath: bank:/LeeBank
-  lastModified: 638669209908622499
+  lastModified: 638675549695821672
   FileSizes:
   - Name: Desktop
     Value: 528256
@@ -132,11 +157,39 @@ MonoBehaviour:
   Path: FMod_HW_Max_K/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638669209908661543
+  lastModified: 638675549712907499
   FileSizes:
   - Name: Desktop
-    Value: 1391936
+    Value: 3871360
   Exists: 1
+--- !u!114 &6681295207727614774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/BranchTestMax
+  m_EditorClassIdentifier: 
+  Path: event:/BranchTestMax
+  Guid:
+    Data1: 1685934430
+    Data2: 1100419134
+    Data3: -239136850
+    Data4: 588032161
+  Banks:
+  - {fileID: 6456510009508752499}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 986008544235368947}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 138000
 --- !u!114 &8359953295108419850
 MonoBehaviour:
   m_ObjectHideFlags: 0
