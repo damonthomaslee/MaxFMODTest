@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: FMod_HW_Max_K/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638669144933124094
+  lastModified: 638681271589319656
   FileSizes:
   - Name: Desktop
-    Value: 922
+    Value: 976
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -39,13 +39,41 @@ MonoBehaviour:
   EditorEvents:
   - {fileID: 8359953295108419850}
   - {fileID: 5815872624283178717}
+  - {fileID: 1321318152247666805}
   EditorParameters: []
   MasterBanks:
   - {fileID: 6456510009508752499}
   StringsBanks:
   - {fileID: -1691879419685185440}
-  cacheTime: 638669144933293563
+  cacheTime: 638681272105225971
   cacheVersion: 131617
+--- !u!114 &1321318152247666805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/LeeBackground2
+  m_EditorClassIdentifier: 
+  Path: event:/LeeBackground2
+  Guid:
+    Data1: -2102585878
+    Data2: 1322840831
+    Data3: -329624937
+    Data4: -1751054980
+  Banks:
+  - {fileID: 1345671099277448840}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 28290
 --- !u!114 &1345671099277448840
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61,10 +89,10 @@ MonoBehaviour:
   Path: FMod_HW_Max_K/Build/Desktop/LeeBank.bank
   Name: LeeBank
   StudioPath: bank:/LeeBank
-  lastModified: 638669144933293563
+  lastModified: 638681272105225971
   FileSizes:
   - Name: Desktop
-    Value: 528256
+    Value: 907008
   Exists: 1
 --- !u!114 &2822314225550770837
 MonoBehaviour:
@@ -111,7 +139,7 @@ MonoBehaviour:
   Banks:
   - {fileID: 1345671099277448840}
   IsStream: 1
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -132,7 +160,7 @@ MonoBehaviour:
   Path: FMod_HW_Max_K/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638669144933113628
+  lastModified: 638681271589305931
   FileSizes:
   - Name: Desktop
     Value: 1391936
