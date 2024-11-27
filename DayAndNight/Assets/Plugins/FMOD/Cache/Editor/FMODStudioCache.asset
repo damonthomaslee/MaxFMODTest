@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-1691879419685185440
+--- !u!114 &-7267434944923056830
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -15,19 +15,12 @@ MonoBehaviour:
   Path: FMod_HW_Max_K/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-<<<<<<< HEAD
-  lastModified: 638675549712944352
+  lastModified: 638683326383752308
   FileSizes:
   - Name: Desktop
     Value: 966
-=======
-  lastModified: 638681271589319656
-  FileSizes:
-  - Name: Desktop
-    Value: 976
->>>>>>> LeeBranch
   Exists: 1
---- !u!114 &11400000
+--- !u!114 &-6949657597011855857
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -36,35 +29,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
-  m_Name: FMODStudioCache
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/LeeAsset
   m_EditorClassIdentifier: 
-  EditorBanks:
-  - {fileID: -1691879419685185440}
-  - {fileID: 6456510009508752499}
-  - {fileID: 1345671099277448840}
-  EditorEvents:
-  - {fileID: 8359953295108419850}
-  - {fileID: 5815872624283178717}
-<<<<<<< HEAD
-  - {fileID: 6681295207727614774}
-=======
-  - {fileID: 1321318152247666805}
->>>>>>> LeeBranch
-  EditorParameters: []
-  MasterBanks:
-  - {fileID: 6456510009508752499}
-  StringsBanks:
-  - {fileID: -1691879419685185440}
-<<<<<<< HEAD
-  cacheTime: 638675549712944352
-  cacheVersion: 131617
---- !u!114 &986008544235368947
-=======
-  cacheTime: 638681272105225971
-  cacheVersion: 131617
---- !u!114 &1321318152247666805
->>>>>>> LeeBranch
+  Path: event:/LeeAsset
+  Guid:
+    Data1: -1098001253
+    Data2: 1312954550
+    Data3: -1622058844
+    Data4: 1062783195
+  Banks:
+  - {fileID: 7658882454883825183}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 50311
+--- !u!114 &-5656131977762607724
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -73,7 +56,34 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-<<<<<<< HEAD
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/mus_menu_levelselect_loop
+  m_EditorClassIdentifier: 
+  Path: event:/mus_menu_levelselect_loop
+  Guid:
+    Data1: -319553904
+    Data2: 1092404770
+    Data3: 937602700
+    Data4: 508590165
+  Banks:
+  - {fileID: 5459901845049081220}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -1716522113026158304}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 61020
+--- !u!114 &-5398962967418802132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/BranchTestMax/Moon
   m_EditorClassIdentifier: 
@@ -89,51 +99,7 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
-=======
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/LeeBackground2
-  m_EditorClassIdentifier: 
-  Path: event:/LeeBackground2
-  Guid:
-    Data1: -2102585878
-    Data2: 1322840831
-    Data3: -329624937
-    Data4: -1751054980
-  Banks:
-  - {fileID: 1345671099277448840}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 28290
->>>>>>> LeeBranch
---- !u!114 &1345671099277448840
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/LeeBank.bank
-  m_EditorClassIdentifier: 
-  Path: FMod_HW_Max_K/Build/Desktop/LeeBank.bank
-  Name: LeeBank
-  StudioPath: bank:/LeeBank
-<<<<<<< HEAD
-  lastModified: 638675549695821672
-=======
-  lastModified: 638681272105225971
->>>>>>> LeeBranch
-  FileSizes:
-  - Name: Desktop
-    Value: 907008
-  Exists: 1
---- !u!114 &2822314225550770837
+--- !u!114 &-1716522113026158304
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -157,7 +123,7 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
---- !u!114 &5815872624283178717
+--- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -166,25 +132,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/LeeAsset
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
-  Path: event:/LeeAsset
-  Guid:
-    Data1: -1098001253
-    Data2: 1312954550
-    Data3: -1622058844
-    Data4: 1062783195
-  Banks:
-  - {fileID: 1345671099277448840}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 50311
---- !u!114 &6456510009508752499
+  EditorBanks:
+  - {fileID: -7267434944923056830}
+  - {fileID: 7658882454883825183}
+  - {fileID: 5459901845049081220}
+  EditorEvents:
+  - {fileID: -6949657597011855857}
+  - {fileID: 5721454855504856231}
+  - {fileID: -5656131977762607724}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: 5459901845049081220}
+  StringsBanks:
+  - {fileID: -7267434944923056830}
+  cacheTime: 638683326383752308
+  cacheVersion: 131617
+--- !u!114 &5459901845049081220
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -199,16 +165,12 @@ MonoBehaviour:
   Path: FMod_HW_Max_K/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-<<<<<<< HEAD
-  lastModified: 638675549712907499
-=======
-  lastModified: 638681271589305931
->>>>>>> LeeBranch
+  lastModified: 638683326383747713
   FileSizes:
   - Name: Desktop
     Value: 3871360
   Exists: 1
---- !u!114 &6681295207727614774
+--- !u!114 &5721454855504856231
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -227,16 +189,16 @@ MonoBehaviour:
     Data3: -239136850
     Data4: 588032161
   Banks:
-  - {fileID: 6456510009508752499}
+  - {fileID: 5459901845049081220}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 986008544235368947}
+  - {fileID: -5398962967418802132}
   MinDistance: 1
   MaxDistance: 20
   Length: 138000
---- !u!114 &8359953295108419850
+--- !u!114 &7658882454883825183
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -245,22 +207,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/mus_menu_levelselect_loop
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/LeeBank.bank
   m_EditorClassIdentifier: 
-  Path: event:/mus_menu_levelselect_loop
-  Guid:
-    Data1: -319553904
-    Data2: 1092404770
-    Data3: 937602700
-    Data4: 508590165
-  Banks:
-  - {fileID: 6456510009508752499}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters:
-  - {fileID: 2822314225550770837}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 61020
+  Path: FMod_HW_Max_K/Build/Desktop/LeeBank.bank
+  Name: LeeBank
+  StudioPath: bank:/LeeBank
+  lastModified: 638683326383654585
+  FileSizes:
+  - Name: Desktop
+    Value: 528256
+  Exists: 1
