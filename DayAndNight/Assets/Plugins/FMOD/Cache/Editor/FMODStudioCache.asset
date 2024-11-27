@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: FMod_HW_Max_K/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638683326383752308
+  lastModified: 638683329598089557
   FileSizes:
   - Name: Desktop
-    Value: 966
+    Value: 1020
   Exists: 1
 --- !u!114 &-6949657597011855857
 MonoBehaviour:
@@ -41,7 +41,7 @@ MonoBehaviour:
   Banks:
   - {fileID: 7658882454883825183}
   IsStream: 1
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -143,13 +143,41 @@ MonoBehaviour:
   - {fileID: -6949657597011855857}
   - {fileID: 5721454855504856231}
   - {fileID: -5656131977762607724}
+  - {fileID: 643604942875193266}
   EditorParameters: []
   MasterBanks:
   - {fileID: 5459901845049081220}
   StringsBanks:
   - {fileID: -7267434944923056830}
-  cacheTime: 638683326383752308
+  cacheTime: 638683329598089557
   cacheVersion: 131617
+--- !u!114 &643604942875193266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/LeeBackground2
+  m_EditorClassIdentifier: 
+  Path: event:/LeeBackground2
+  Guid:
+    Data1: -2102585878
+    Data2: 1322840831
+    Data3: -329624937
+    Data4: -1751054980
+  Banks:
+  - {fileID: 7658882454883825183}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 28290
 --- !u!114 &5459901845049081220
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -165,7 +193,7 @@ MonoBehaviour:
   Path: FMod_HW_Max_K/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638683326383747713
+  lastModified: 638683329598083456
   FileSizes:
   - Name: Desktop
     Value: 3871360
@@ -213,8 +241,8 @@ MonoBehaviour:
   Path: FMod_HW_Max_K/Build/Desktop/LeeBank.bank
   Name: LeeBank
   StudioPath: bank:/LeeBank
-  lastModified: 638683326383654585
+  lastModified: 638683329580725960
   FileSizes:
   - Name: Desktop
-    Value: 528256
+    Value: 907008
   Exists: 1
