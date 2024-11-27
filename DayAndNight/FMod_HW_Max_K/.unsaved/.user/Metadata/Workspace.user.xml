@@ -13,7 +13,11 @@
 			<value>Event Editor 1</value>
 		</property>
 		<property name="windowLayout">
+<<<<<<< HEAD
 			<value>AAAAAQAAABwARQB2AGUAbgB0ACAARQBkAGkAdABvAHIAIAAxAAAAQgHZ0MsAAwAAAAAAlAAAALwAAAZ7AAAEHgAAAJQAAADYAAAGewAABB4AAAAAAAAAAAXoAAAAlAAAANgAAAZ7AAAEHg==</value>
+=======
+			<value>AAAAAQAAABwARQB2AGUAbgB0ACAARQBkAGkAdABvAHIAIAAxAAAAQgHZ0MsAAwAAAAAASgAAAFoAAAYxAAAECQAAAEoAAAB2AAAGMQAABAkAAAAAAAAAAAXoAAAASgAAAHYAAAYxAAAECQ==</value>
+>>>>>>> LeeBranch
 		</property>
 		<relationship name="activePlatform">
 			<destination>{e6ddd0c4-77e5-4983-a01b-4abdad91a4d9}</destination>

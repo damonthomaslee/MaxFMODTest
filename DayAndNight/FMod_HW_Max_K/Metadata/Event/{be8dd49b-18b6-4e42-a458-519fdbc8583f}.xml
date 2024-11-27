@@ -5,7 +5,7 @@
 			<value>LeeAsset</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{08d3821c-f4e5-4df6-8350-e4aab5e2ba2f}</destination>
@@ -113,7 +113,6 @@
 	<object class="MixerBusEffectChain" id="{64891533-c521-4a2a-b5b5-e9aebf598c0f}">
 		<relationship name="effects">
 			<destination>{48222ae9-48c4-4ddc-9a6b-05f171633c64}</destination>
-			<destination>{802b1ba3-5c93-4d10-9a52-3db4165992f3}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{509c66d8-8c34-4005-b621-32293f589c78}" />
@@ -125,6 +124,5 @@
 	</object>
 	<object class="MixerBusPanner" id="{a643a0b0-c7ac-448f-9c61-42ac922cb618}" />
 	<object class="MixerBusFader" id="{48222ae9-48c4-4ddc-9a6b-05f171633c64}" />
-	<object class="SpatialiserEffect" id="{802b1ba3-5c93-4d10-9a52-3db4165992f3}" />
 	<object class="MixerBusFader" id="{983bf9dc-b252-4922-b191-b4ea9aea49a7}" />
 </objects>
