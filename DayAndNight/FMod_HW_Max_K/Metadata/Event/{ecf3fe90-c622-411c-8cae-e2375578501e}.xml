@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{ecf3fe90-c622-411c-8cae-e2375578501e}">
 		<property name="name">
 			<value>mus_menu_levelselect_loop</value>
@@ -86,8 +86,8 @@
 	</object>
 	<object class="Timeline" id="{77c323db-f68b-433e-8269-9a6f69f4e211}">
 		<relationship name="modules">
-			<destination>{91f8f209-ab92-42c0-a7c2-232f44c093bb}</destination>
 			<destination>{49a92165-c9ba-40a3-8a47-d2add1e5929c}</destination>
+			<destination>{91f8f209-ab92-42c0-a7c2-232f44c093bb}</destination>
 		</relationship>
 		<relationship name="markers">
 			<destination>{22e7ae65-e91f-447e-84bc-9ad15fd4a34e}</destination>
@@ -241,8 +241,8 @@
 			<destination>{02f91321-46f5-49c6-98ab-8d486ed51895}</destination>
 		</relationship>
 		<relationship name="automationPoints">
-			<destination>{0b355f1a-4ca3-41ec-9a74-a4d23ee28dc3}</destination>
 			<destination>{38c07544-a502-4153-ad89-ad11272b1e8e}</destination>
+			<destination>{0b355f1a-4ca3-41ec-9a74-a4d23ee28dc3}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{52667aae-8c5e-47d1-a608-f130bb06fc8e}" />
@@ -273,6 +273,14 @@
 			<value>-4</value>
 		</property>
 	</object>
+	<object class="AutomationPoint" id="{38c07544-a502-4153-ad89-ad11272b1e8e}">
+		<property name="position">
+			<value>1</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+	</object>
 	<object class="AutomationPoint" id="{0b355f1a-4ca3-41ec-9a74-a4d23ee28dc3}">
 		<property name="position">
 			<value>0</value>
@@ -282,14 +290,6 @@
 		</property>
 		<property name="curveShape">
 			<value>-0.227099925</value>
-		</property>
-	</object>
-	<object class="AutomationPoint" id="{38c07544-a502-4153-ad89-ad11272b1e8e}">
-		<property name="position">
-			<value>1</value>
-		</property>
-		<property name="value">
-			<value>0</value>
 		</property>
 	</object>
 </objects>

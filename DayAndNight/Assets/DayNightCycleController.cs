@@ -4,46 +4,75 @@ using FMODUnity;
 public class DayNightCycleController : MonoBehaviour
 {
     [SerializeField]
-    private EventReference fmodEventPath; // Use EventReference instead of string
+    private EventReference fmodEventPath;
+
+    [SerializeField]
+    private string parameterName = "moon";
+
+    [SerializeField]
+    private Camera referenceCamera;
+
+    [SerializeField]
+    [Range(0f, 1f)]
+    private float cameraInfluence = 0.35f;
 
     private FMOD.Studio.EventInstance fmodEventInstance;
-    private float cycleDuration = 60.0f; // Duration of one full day-night cycle in seconds
+    private float cycleDuration = 60.0f;
     private float cycleTimer = 0.0f;
-    public float speed = 1.0f; // Speed multiplier for the day-night cycle
+    public float speed = 1.0f;
     public Light directionalLight;
 
     void Start()
     {
-        // Create the FMOD event instance
         fmodEventInstance = RuntimeManager.CreateInstance(fmodEventPath);
         fmodEventInstance.start();
     }
 
     void Update()
     {
-        // Update the cycle timer with speed factor
         cycleTimer += Time.deltaTime * speed;
 
-        // Ensure cycleDuration is not zero to avoid division by zero
-        if (cycleDuration > 0)
+        if (cycleDuration <= 0f)
+            return;
+
+        float cyclePhase = Mathf.Repeat(cycleTimer / cycleDuration, 1.0f);
+
+        if (directionalLight != null)
         {
-            // Calculate the parameter value (0 to 1) based on the cycle timer
-            float parameterValue = Mathf.Repeat(cycleTimer / cycleDuration, 1.0f);
-
-            // Update the FMOD event parameter "moon"
-            fmodEventInstance.setParameterByName("moon", parameterValue);
-
-            // Update the light rotation to simulate day-night cycle
-            if (directionalLight != null)
-            {
-                directionalLight.transform.localRotation = Quaternion.Euler(new Vector3((parameterValue * 360f) - 90f, 170f, 0));
-            }
+            directionalLight.transform.localRotation = Quaternion.Euler(
+                new Vector3((cyclePhase * 360f) - 90f, 170f, 0f));
         }
+
+        float moonAmount = cyclePhase;
+
+        if (directionalLight != null)
+        {
+            moonAmount = CalculatePerceivedNightAmount();
+        }
+
+        fmodEventInstance.setParameterByName(parameterName, moonAmount);
+    }
+
+    private float CalculatePerceivedNightAmount()
+    {
+        Vector3 lightDirection = -directionalLight.transform.forward;
+
+        float sunHeight = Vector3.Dot(lightDirection, Vector3.up);
+        float dayFromElevation = Mathf.SmoothStep(0f, 1f, Mathf.InverseLerp(-0.2f, 0.25f, sunHeight));
+
+        Camera viewer = referenceCamera != null ? referenceCamera : Camera.main;
+        if (viewer != null)
+        {
+            float frontLighting = Mathf.Clamp01((Vector3.Dot(lightDirection, viewer.transform.forward) + 1f) * 0.5f);
+            float cameraDayBias = Mathf.SmoothStep(0f, 1f, frontLighting);
+            dayFromElevation = Mathf.Lerp(dayFromElevation, Mathf.Max(dayFromElevation, cameraDayBias), cameraInfluence * 0.35f);
+        }
+
+        return 1f - Mathf.Clamp01(dayFromElevation);
     }
 
     void OnDestroy()
     {
-        // Stop and release the FMOD event instance when the script is destroyed
         fmodEventInstance.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
         fmodEventInstance.release();
     }

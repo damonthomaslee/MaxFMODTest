@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-1691879419685185440
+--- !u!114 &-6987374745881005201
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -11,70 +11,16 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
   m_Name: bank:/Master.strings.bank
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorBankRef
   Path: FMod_HW_Max_K/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638681271589319656
+  lastModified: 639117604376939754
   FileSizes:
   - Name: Desktop
-    Value: 976
+    Value: 1072
   Exists: 1
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
-  m_Name: FMODStudioCache
-  m_EditorClassIdentifier: 
-  EditorBanks:
-  - {fileID: -1691879419685185440}
-  - {fileID: 6456510009508752499}
-  - {fileID: 1345671099277448840}
-  EditorEvents:
-  - {fileID: 8359953295108419850}
-  - {fileID: 5815872624283178717}
-  - {fileID: 1321318152247666805}
-  EditorParameters: []
-  MasterBanks:
-  - {fileID: 6456510009508752499}
-  StringsBanks:
-  - {fileID: -1691879419685185440}
-  cacheTime: 638681272105225971
-  cacheVersion: 131617
---- !u!114 &1321318152247666805
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/LeeBackground2
-  m_EditorClassIdentifier: 
-  Path: event:/LeeBackground2
-  Guid:
-    Data1: -2102585878
-    Data2: 1322840831
-    Data3: -329624937
-    Data4: -1751054980
-  Banks:
-  - {fileID: 1345671099277448840}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 28290
---- !u!114 &1345671099277448840
+--- !u!114 &-6125320790798964657
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -85,16 +31,72 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
   m_Name: bank:/LeeBank.bank
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorBankRef
   Path: FMod_HW_Max_K/Build/Desktop/LeeBank.bank
   Name: LeeBank
   StudioPath: bank:/LeeBank
-  lastModified: 638681272105225971
+  lastModified: 639117572741722205
   FileSizes:
   - Name: Desktop
-    Value: 907008
+    Value: 906944
   Exists: 1
---- !u!114 &2822314225550770837
+--- !u!114 &-5724287210546795839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RobotVoice 2
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/RobotVoice 2
+  Guid:
+    Data1: -587619375
+    Data2: 1115665644
+    Data3: -1946406997
+    Data4: 314322635
+  Banks:
+  - {fileID: 7530987088714753124}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -4667726838696547758}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 767
+--- !u!114 &-4957604087333674817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/mus_menu_levelselect_loop
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/mus_menu_levelselect_loop
+  Guid:
+    Data1: -319553904
+    Data2: 1092404770
+    Data3: 937602700
+    Data4: 508590165
+  Banks:
+  - {fileID: 7530987088714753124}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -4549473543412931725}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 61020
+--- !u!114 &-4667726838696547758
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -104,8 +106,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/mus_menu_levelselect_loop/Moon
-  m_EditorClassIdentifier: 
+  m_Name: parameter:/RobotVoice 2/Moon
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorParamRef
   Name: Moon
   StudioPath: 
   Min: 0
@@ -118,7 +120,150 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
---- !u!114 &5815872624283178717
+--- !u!114 &-4549473543412931725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/mus_menu_levelselect_loop/Moon
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorParamRef
+  Name: Moon
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 62204996
+    data2: 1847919116
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-3009510695809300432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/LeeBackground2
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/LeeBackground2
+  Guid:
+    Data1: -2102585878
+    Data2: 1322840831
+    Data3: -329624937
+    Data4: -1751054980
+  Banks:
+  - {fileID: -6125320790798964657}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 28290
+--- !u!114 &-2587737324991368233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/RobotVoice/Moon
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorParamRef
+  Name: Moon
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 62204996
+    data2: 1847919116
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EventCache
+  EditorBanks:
+  - {fileID: -6987374745881005201}
+  - {fileID: -6125320790798964657}
+  - {fileID: 7530987088714753124}
+  EditorEvents:
+  - {fileID: 5827458387012522138}
+  - {fileID: -3009510695809300432}
+  - {fileID: -4957604087333674817}
+  - {fileID: 5663257082143463398}
+  - {fileID: -5724287210546795839}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: 7530987088714753124}
+  StringsBanks:
+  - {fileID: -6987374745881005201}
+  cacheVersion: 131859
+  cacheTime: 639117604376939754
+  SerializableEventsDict:
+  - key: event:/LeeAsset
+    index: 0
+  - key: event:/LeeBackground2
+    index: 1
+  - key: event:/mus_menu_levelselect_loop
+    index: 2
+  - key: event:/RobotVoice
+    index: 3
+  - key: event:/RobotVoice 2
+    index: 4
+--- !u!114 &5663257082143463398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RobotVoice
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
+  Path: event:/RobotVoice
+  Guid:
+    Data1: 1557123848
+    Data2: 1188926647
+    Data3: 1402491052
+    Data4: 1487022725
+  Banks:
+  - {fileID: 7530987088714753124}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -2587737324991368233}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 767
+--- !u!114 &5827458387012522138
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -129,7 +274,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/LeeAsset
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorEventRef
   Path: event:/LeeAsset
   Guid:
     Data1: -1098001253
@@ -137,7 +282,7 @@ MonoBehaviour:
     Data3: -1622058844
     Data4: 1062783195
   Banks:
-  - {fileID: 1345671099277448840}
+  - {fileID: -6125320790798964657}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -145,7 +290,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 50311
---- !u!114 &6456510009508752499
+--- !u!114 &7530987088714753124
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -156,40 +301,12 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
   m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorBankRef
   Path: FMod_HW_Max_K/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638681271589305931
+  lastModified: 639117604376934425
   FileSizes:
   - Name: Desktop
-    Value: 1391936
+    Value: 1407616
   Exists: 1
---- !u!114 &8359953295108419850
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/mus_menu_levelselect_loop
-  m_EditorClassIdentifier: 
-  Path: event:/mus_menu_levelselect_loop
-  Guid:
-    Data1: -319553904
-    Data2: 1092404770
-    Data3: 937602700
-    Data4: 508590165
-  Banks:
-  - {fileID: 6456510009508752499}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters:
-  - {fileID: 2822314225550770837}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 61020

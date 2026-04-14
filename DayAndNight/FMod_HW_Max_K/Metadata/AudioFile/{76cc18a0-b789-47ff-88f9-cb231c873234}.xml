@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{76cc18a0-b789-47ff-88f9-cb231c873234}">
 		<property name="assetPath">
 			<value>FMOD_NoMoon.mp3</value>

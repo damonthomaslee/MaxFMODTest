@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{63e5a391-7891-44d6-81bd-65ba9a5d82aa}">
 		<property name="assetPath">
 			<value>Background Music.mp3</value>

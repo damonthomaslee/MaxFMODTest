@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<objects serializationModel="Studio.02.02.00">
+<objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{904a0c9b-2141-4fc6-ba5a-d1abe26b1d1d}">
 		<property name="assetPath">
 			<value>FMod_Moon100.mp3</value>

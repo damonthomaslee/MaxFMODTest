@@ -1,0 +1,1695 @@
+Unity Editor version:    6000.4.0f1 (8cf496087c8f)
+Branch:                  6000.4/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 15.7.1 (Build 24G231)
+Darwin version:          24.6.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        65536 MB
+Date:                    2026-04-14T08:48:47Z
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-damonleehfmlaptop" at "2026-04-14T08:48:47.97362Z"
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/6000.4.0f1-arm64/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/damonleehfmlaptop/Documents/_CodexArea/Games/Github/MaxFMODTest/DayAndNight
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50705
+-licensingIpc
+LicenseClient-damonleehfmlaptop
+-force-metal
+-job-worker-count
+4
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name AssetImport
+Successfully changed project path to: /Users/damonleehfmlaptop/Documents/_CodexArea/Games/Github/MaxFMODTest/DayAndNight
+/Users/damonleehfmlaptop/Documents/_CodexArea/Games/Github/MaxFMODTest/DayAndNight
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [8348803392]  Target information:
+
+Player connection [8348803392]  * "[IP] 10.172.229.49 [Port] 0 [Flags] 2 [Guid] 2783856543 [EditorId] 2783856543 [Version] 1048832 [Id] OSXEditor(0,Ds-Laptop.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8348803392] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8348803392] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 4
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 9.05 ms, found 4 plugins.
+Initialize engine version: 6000.4.0f1 (8cf496087c8f)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.4.0f1-arm64/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/damonleehfmlaptop/Documents/_CodexArea/Games/Github/MaxFMODTest/DayAndNight/Assets
+Forcing GfxDevice: Metal
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+ preferred device: Apple M1 Max (high power)
+Metal devices available: 1
+0: Apple M1 Max (high power)
+Using device Apple M1 Max (high power)
+Initializing Metal device caps: Apple M1 Max
+Mac GPU Family: 2
+Apple GPU Family: 7
+MSL Version: 3.0
+Has Float MSAA: 1
+Has Float Filtering: 1
+ReadWrite Texture Tier: 2
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-damonleehfmlaptop"
+[Licensing::IpcConnector] LicenseClient-damonleehfmlaptop channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-damonleehfmlaptop-6000.4.0" at "2026-04-14T08:48:48.434106Z"
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/6000.4.0f1-arm64/Unity.app/Contents/Resources/Scripting/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/6000.4.0f1-arm64/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/6000.4.0f1-arm64/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56610
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/6000.4.0f1-arm64/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000321 seconds.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              a7dd89becb1d4100ae3680dc7205401d
+  Correlation Id:          d1495a0d8228ebee36cabec8f9d0a1be
+  External correlation Id: 8076997102696544329
+  Machine Id:              RQWzJX66tGlxT+MQhHsNHhXU48Q=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-damonleehfmlaptop-6000.4.0" (connect: 0.00s, validation: 0.00s, handshake: 0.45s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-damonleehfmlaptop-6000.4.0-notifications" at "2026-04-14T08:48:48.887464Z"
+[Licensing::Module] Licensing Background thread has ended after 0.91s
+Native extension for OSXStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.280 seconds
+Domain Reload Profiling: 579ms
+	BeginReloadAssembly (59ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (160ms)
+		LoadAssemblies (59ms)
+		AnalyzeDomain (152ms)
+			TypeCache.Refresh (151ms)
+				TypeCache.ScanAssembly (141ms)
+	FinalizeReload (280ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (78ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
+[CoreBusinessMetrics] Unexpected thread when updating session info.
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: E4-RCYQ-W574-3RC2-PJPX-XXXX
+  Product: Unity Education
+  Type: ULF
+  Expiration: 2026-04-25T07:55:25Z
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Performance.Profile-Analyzer.EditorTests.dll at Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Settings.Tests.dll at Library/ScriptAssemblies/Unity.Settings.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TestTools.CodeCoverage.Editor.Compatibility.dll at Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.Compatibility.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Refreshing native plugins compatible for Editor in 3.18 ms, found 4 plugins.
+Native extension for OSXStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 2.52 ms, found 4 plugins.
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.387 seconds
+Domain Reload Profiling: 800ms
+	BeginReloadAssembly (100ms)
+		DisableScriptedObjects (4ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (237ms)
+		LoadAssemblies (136ms)
+		AnalyzeDomain (139ms)
+			TypeCache.Refresh (109ms)
+				TypeCache.ScanAssembly (99ms)
+			BuildScriptInfoCaches (26ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (387ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (84ms)
+			ProcessInitializeOnLoadAttributes (174ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+Launching external process: /Applications/Unity/Hub/Editor/6000.4.0f1-arm64/Unity.app/Contents/Helpers/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 2.73 ms, found 4 plugins.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3634 unused Assets / (0.6 MB). Loaded Objects now: 4149.
+Memory consumption went from 86.8 MB to 86.3 MB.
+Total: 4.680083 ms (FindLiveObjects: 0.175750 ms CreateObjectMapping: 0.096750 ms MarkObjects: 3.800917 ms  DeleteObjects: 0.605958 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 3962.442346 seconds.
+  path: Assets/Plugins/FMOD/images/FMODLogoWhite.png
+  importAddress: Guid(8fd8ccb8d7e81d943b28ea7975c7185d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/images/FMODLogoWhite.png using Guid(8fd8ccb8d7e81d943b28ea7975c7185d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4ab0f9e49006cec7aa798ca382d92b07') in 0.067400792 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c922d763b6216587491f119fc7614795 DependenciesID=7a3f0d2c23ed68ff1c865ed35595b26c StaticDependenciesID=9cd36fff5bf29e62e5dd735ed0ce28d8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Plugins/FMOD/src/StudioListener.cs
+  importAddress: Guid(86c6556701af9e04380698b89f691b6e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/src/StudioListener.cs using Guid(86c6556701af9e04380698b89f691b6e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '91541d41ca9744dbe52de30564da94de') in 0.006484291 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=253cee380894d9122b3340e926633373 DependenciesID=79f5dd4ef8f6152278f4010c4f0a8dfa StaticDependenciesID=588d9fa0109b1f107fd29b4edb35e9aa 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Plugins/FMOD/images/ContinuousParameterIcon.png
+  importAddress: Guid(b92803770616fc747bc3c40ffaec0a42) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/images/ContinuousParameterIcon.png using Guid(b92803770616fc747bc3c40ffaec0a42) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6b2c6c4fdf5703daf0a4ef181eb92126') in 0.003552667 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ea02f8752a7dd381f02ef923dec251da DependenciesID=189e9e025ba592ac1d324b9a8bcc8beb StaticDependenciesID=1e79ad679000299dca84f773dd447a72 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Plugins/FMOD/images/PreviewEmitter.png
+  importAddress: Guid(9519043db3741934fa01455c47683e8c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/images/PreviewEmitter.png using Guid(9519043db3741934fa01455c47683e8c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '847a7a0141e398a95d1aa468cf61d15d') in 0.003995125 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=83685ff0c558ebaf4f1b903de81cbb9e DependenciesID=321175f3e9cc9044759e2c557530073f StaticDependenciesID=37b505fa0bffc14089e4fb71d9b08b7d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Plugins/FMOD/src/ParamRef.cs
+  importAddress: Guid(00e1a9817a5d9844796d7c313b1ab197) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/src/ParamRef.cs using Guid(00e1a9817a5d9844796d7c313b1ab197) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5bcf9bec18a36c2ebbdcc02461e93857') in 0.001457833 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b8b4ef55ef9f8a67cb4253767a48a93e DependenciesID=a66c08412766f6cd2fa8a211969ece3f StaticDependenciesID=dca89b3ffb0853978e1d84d9a3ff904d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Plugins/FMOD/images/CrossYellow.png
+  importAddress: Guid(348d2265b48c67342a4db2a7062813fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/images/CrossYellow.png using Guid(348d2265b48c67342a4db2a7062813fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8a64ebcc1481f7d35ba69ff8e96f0134') in 0.003663542 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e7b1bb545b24c9db208c5923228c3328 DependenciesID=4b216d3cb74573dde7a7ae4e5b97d5fa StaticDependenciesID=ad53359766154e3892b3111df8cb58b1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Scenes/DamonScene.unity
+  importAddress: Guid(87b744829ed8b42c6b41b8395a153369) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/DamonScene.unity using Guid(87b744829ed8b42c6b41b8395a153369) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6b487301e71e130becaf3b6b2ec3c967') in 0.001783625 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=254881d24ff9681832b5306d4656f60e DependenciesID=11aa62343bfce7f22a7ceee6434653d1 StaticDependenciesID=c09e7c09f77ce47ef123e9d2c931601a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Plugins/FMOD/images/Wrench.png
+  importAddress: Guid(507cd805ad331e54cb9e9cab5a9270b5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/images/Wrench.png using Guid(507cd805ad331e54cb9e9cab5a9270b5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9580797f5309fdf7ac47094409f83120') in 0.004644875 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=53e65e8b910d769d65e5c55d9d64ec68 DependenciesID=98a7eeccba5e8be74fef7c5f3e7cea13 StaticDependenciesID=ab8b79a560705116450cd4c461946e4d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Plugins/FMOD/src/fmod.cs
+  importAddress: Guid(bd0d0c955caff8940ac1667ee36dd4c9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/src/fmod.cs using Guid(bd0d0c955caff8940ac1667ee36dd4c9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b38421f46e8075f794e01eac7a9d68d6') in 0.001321625 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=12d5a2383e5cf157df0fb8a117118b7f DependenciesID=c1d4817a20de84669ee76c3974e24f18 StaticDependenciesID=7dfb0b62789497ba446b8013f5d80b3d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Plugins/FMOD/src/fmod_errors.cs
+  importAddress: Guid(6e0992509b0077e479d2da05c8f52eb0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/src/fmod_errors.cs using Guid(6e0992509b0077e479d2da05c8f52eb0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd88b8030e62cab31292c23598d6fac70') in 0.001042834 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8a616d913729f6dc3afdb6ae33791466 DependenciesID=5132372356710f0ef5ecb102d59189a2 StaticDependenciesID=8f1ab0d321e24552f04f900e47be35e6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Plugins/FMOD/images/FolderIconClosed.png
+  importAddress: Guid(70efeb6d97126f843b30b8ed62d18a4f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/images/FolderIconClosed.png using Guid(70efeb6d97126f843b30b8ed62d18a4f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '940faa5bd356c3863bd0a2d35d7b972f') in 0.003576125 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=282fc499baaa0a5231c2878b0791e1d7 DependenciesID=9702daac3561955df3fe00966f4d0c64 StaticDependenciesID=f0136e6f583ca2305e6a2a159f6aec8a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Plugins/FMOD/src/Editor/ListView.cs
+  importAddress: Guid(1573bef36bd46e34f8f2b4dad628a461) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/src/Editor/ListView.cs using Guid(1573bef36bd46e34f8f2b4dad628a461) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '611cbb907208cb3553460df8a24eaa41') in 0.001227416 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f36d0db30cbea477630b4581db7801c4 DependenciesID=6b7115f2eb396785b7e2dc61731ea12c StaticDependenciesID=b123601e665fe0a7c33366a99794586a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Plugins/FMOD/src/PlatformPlayInEditor.cs
+  importAddress: Guid(335f0a4b26fb46942858ea029e030d2a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/src/PlatformPlayInEditor.cs using Guid(335f0a4b26fb46942858ea029e030d2a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '86aa60b1a3afdf087a8e03aaff9265ca') in 0.001476875 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9f51623069d544e50d002731129b967c DependenciesID=ea27b475afa8cae57a23928bc58306be StaticDependenciesID=a40517e8199a61e56184af871ab90866 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Plugins/FMOD/src/Editor/EventCache.cs
+  importAddress: Guid(d32cf7c32a3ed8347bac48ef5ed56d82) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/src/Editor/EventCache.cs using Guid(d32cf7c32a3ed8347bac48ef5ed56d82) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6cd4cc375a539bd1309a5fda185e16b2') in 0.001112958 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c979cadc81519be975318b534f9ebe2d DependenciesID=391ef7a82a9d1ce7ce73f932e9e0c714 StaticDependenciesID=df293c707097e921eee0b2f2e27b6945 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Plugins/FMOD/src/Editor/StudioEventEmitterEditor.cs
+  importAddress: Guid(2b044fd4ebf2c42468e1f41d5e2b879c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/src/Editor/StudioEventEmitterEditor.cs using Guid(2b044fd4ebf2c42468e1f41d5e2b879c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '37e349b9c9a39f3110975ad69153bf84') in 0.001529167 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=98a3492f09797a9f968e675427b81c58 DependenciesID=8a4e53354f3181e53f9a1568e8cb2080 StaticDependenciesID=24076bef71b7879e4bc67d5927d28636 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Plugins/FMOD/src/Editor/SetupWizard.cs
+  importAddress: Guid(aa9a0c70fef01fb43b8eff668bfa0e9c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/src/Editor/SetupWizard.cs using Guid(aa9a0c70fef01fb43b8eff668bfa0e9c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f7f646fa157d79f2bd1e627896c6919c') in 0.001287917 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=23056676a6048412d5c7264000cf7f78 DependenciesID=b33932929e167fb56e859b90f67f2c43 StaticDependenciesID=74bde61a834aaac9235a864160c5f95d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Plugins/FMOD/src/StudioEventEmitter.cs
+  importAddress: Guid(9a6610d2e704f1648819acc8d7460285) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/src/StudioEventEmitter.cs using Guid(9a6610d2e704f1648819acc8d7460285) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'cd540e75265ca6fbd53710e466cc6ea0') in 0.001211709 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1662c996670e2ced15e45fd483ff74f1 DependenciesID=4a21b04356a9da2213be6696969b50df StaticDependenciesID=4ce69954e53bf50a8becea6f8f746cf9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  importAddress: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f889aa2444e7297ceb5cb235f990778e') in 0.001301166 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=afb9bb8177576f32f1168d0c939f4c06 DependenciesID=cd8c25d6ce62559e11363ca8064594e1 StaticDependenciesID=f1ff31715b57ce979aeaac92ee154715 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Plugins/FMOD/src/Editor/BankRefDrawer.cs
+  importAddress: Guid(49ebe6fea5e4bfc4bb492bba062b2afe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/src/Editor/BankRefDrawer.cs using Guid(49ebe6fea5e4bfc4bb492bba062b2afe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'fee6bbc9aed3ae228936ce45e69d936a') in 0.001572125 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d942d5b0f0f1440dd092514d67bdbf36 DependenciesID=ce6e8595d21798fc58c1e9ea60a6c890 StaticDependenciesID=e6c02e19574e66fd8de17c1a91d29d19 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Plugins/FMOD/src/Editor/BankRefresher.cs
+  importAddress: Guid(e564c074e96205b49b91ff80126983c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/src/Editor/BankRefresher.cs using Guid(e564c074e96205b49b91ff80126983c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'df97a2f77b70b6c1bf55d65f98209259') in 0.0013125 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=00c0b01d9870449ece40d3895c264113 DependenciesID=24eb0a2980a12ec1f7590fc140089557 StaticDependenciesID=29a41d1a98cb108dc3c94dee2b0557a3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Plugins/FMOD/src/Editor/BoltIntegration.cs
+  importAddress: Guid(f876942dd549ef444a82ab923e75ccb1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/src/Editor/BoltIntegration.cs using Guid(f876942dd549ef444a82ab923e75ccb1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '85b3d68f6570be674d42f55ed4320561') in 0.001233542 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=23c7ec8826e9f6e0118bd196353077b9 DependenciesID=9deab3d45726f47a138e5433d2aaa1e0 StaticDependenciesID=2542e036cc54178da544971d2647ab73 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Plugins/FMOD/src/StudioBankLoader.cs
+  importAddress: Guid(b9468c5f457ace64f8d4df6d642b107f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/src/StudioBankLoader.cs using Guid(b9468c5f457ace64f8d4df6d642b107f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '46c140aea580957682513b4a017a9ac2') in 0.001354125 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=96139bd2b8fa241d44ead1324c21d1a5 DependenciesID=bcb9defc1b0da5a2f5f536ac9e486ce4 StaticDependenciesID=b14902b5df920a056f237cf4a2cd4f12 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Plugins/FMOD/images/TransportPlayButtonOn.png
+  importAddress: Guid(2d777c9a14189d241aea1afeeeff448c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/images/TransportPlayButtonOn.png using Guid(2d777c9a14189d241aea1afeeeff448c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '52ab679275febc2da7b905e71586b743') in 0.004707584 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=574db2724dc0f6c2bc4402bc128ec197 DependenciesID=df8484dcbb03d0b8cedcadaeeb9b6423 StaticDependenciesID=4c7ca626bdc29d7124c0bd29e6e1a5df 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Plugins/FMOD/src/FMODEventTrack.cs
+  importAddress: Guid(133253f56854570409c222a87786b263) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/src/FMODEventTrack.cs using Guid(133253f56854570409c222a87786b263) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '89d4e856e29dd92753a81995351ee0ea') in 0.002596291 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7ec9d56cd1db6ad95e473fa7ebb716ee DependenciesID=32541ebcacb148e35338125d6e771ca2 StaticDependenciesID=d6777db53b995ce7e23ab26a797d05f4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Plugins/FMOD/src/Settings.cs
+  importAddress: Guid(eef8d824ea7b63742966aaa0e94ac383) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/src/Settings.cs using Guid(eef8d824ea7b63742966aaa0e94ac383) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '38e4e2700ab8ce2951d1889805ff2ade') in 0.001274625 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=82127594193049c1e8d72fe1bbabeb0f DependenciesID=a3d721a04748873c70531fa8f5692332 StaticDependenciesID=b6ccca1e8b8cb248c9f11599e67edfd1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Plugins/FMOD/src/EventReference.cs
+  importAddress: Guid(1b1e4da3fb15e7a45a8f104b7d0fd6d9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/src/EventReference.cs using Guid(1b1e4da3fb15e7a45a8f104b7d0fd6d9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8bd2628d2a440271cda3a3b96f8b11d1') in 0.001449917 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f4d907f1179efd74686e8e3f1fa66698 DependenciesID=fe04b030c93826e0045ff5c3cdbcc949 StaticDependenciesID=caaab10576598775e05e3d14e9fc89de 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Plugins/FMOD/src/Editor/FMODEventTrackEditor.cs
+  importAddress: Guid(31e1c5e7d70e58f45ae86764f7c3ec2f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/src/Editor/FMODEventTrackEditor.cs using Guid(31e1c5e7d70e58f45ae86764f7c3ec2f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '58c8e45bdaa19a77f6a0ed350e2795e5') in 0.001301917 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e355a7ec738fc0188dac144472dfb1b5 DependenciesID=ae33ef20c2cdd6782cc1ab4cefb266e6 StaticDependenciesID=9b1cf631f925d6d31bca70b388297717 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Plugins/FMOD/src/StudioGlobalParameterTrigger.cs
+  importAddress: Guid(9b0e04e2572f9a940a47465f6f3c2f00) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/src/StudioGlobalParameterTrigger.cs using Guid(9b0e04e2572f9a940a47465f6f3c2f00) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e78e73fc77e991ff88ec96a2e72ece0c') in 0.001168958 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3d18e5958d3674236f40a0610b9510ae DependenciesID=642d8a2e10f9097bcd5d95a68850f8ea StaticDependenciesID=dbd968c8cdb318f7f2cf3065bd546a42 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Plugins/FMOD/src/Editor/BankRefreshWindow.cs
+  importAddress: Guid(40a1ca322d08d704eacd449863718b31) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/src/Editor/BankRefreshWindow.cs using Guid(40a1ca322d08d704eacd449863718b31) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd75d5ce670780e64b2a52083f80a1e28') in 0.001425208 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c43f963cbb99e6cbffcb096150408289 DependenciesID=4b8509fa10202f79c86d415a6d52caa0 StaticDependenciesID=f6995fcb22b2b4b5586fa70336ee3da2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Plugins/FMOD/src/Editor/FindAndReplace.cs
+  importAddress: Guid(a3d0ed60438564241a4e62b152836893) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/src/Editor/FindAndReplace.cs using Guid(a3d0ed60438564241a4e62b152836893) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '335f35f92f3df8bbfedeb27d34533064') in 0.00107025 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=333e93904e67e503c04fe84606ef4ac7 DependenciesID=231c97099223d11a8c20bd7162565806 StaticDependenciesID=51a33b296012b8c26d78220edafd5270 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Plugins/FMOD/images/LabeledParameterIcon.png
+  importAddress: Guid(b4d696e5c0be6f44bb2f02aa41320656) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/images/LabeledParameterIcon.png using Guid(b4d696e5c0be6f44bb2f02aa41320656) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9160fe7ece24bf6cadc16dbcadad32a8') in 0.003430583 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1185d761f59054d94597e345786a58a0 DependenciesID=d96407cfb704c56943afb3ea90a1e946 StaticDependenciesID=c271796b61cebc2b18e3951ec37b6d5d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Plugins/FMOD/images/LevelMeterOff.png
+  importAddress: Guid(48dc5470d93f669419f294fcd33f7b7c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/images/LevelMeterOff.png using Guid(48dc5470d93f669419f294fcd33f7b7c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '69f111a4549b67fb715c2c8a9f59a837') in 0.004589458 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=84c30d486de36f47a4a525e1600d8fb9 DependenciesID=4e8038be3e5bb6bd3d659d0e129a649e StaticDependenciesID=f2f59e9959ee2de93b51e94102fbc9f7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Plugins/FMOD/images/StudioIcon.png
+  importAddress: Guid(a4edfa5854cdec34b98b1c55f0562bdd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/images/StudioIcon.png using Guid(a4edfa5854cdec34b98b1c55f0562bdd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '133ef0e420dd452b7b2fa3e8557460c0') in 0.003512958 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2fce20b35c3b1320e74fb2e7d34a9f1a DependenciesID=598f2a78980fc7aad9c5941e8391bdb5 StaticDependenciesID=f5add2f7f300d7337e614bd1c694567e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Plugins/FMOD/src/Editor/EditorBankRef.cs
+  importAddress: Guid(c18180ecb35941f4682ae60107b85b7c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/src/Editor/EditorBankRef.cs using Guid(c18180ecb35941f4682ae60107b85b7c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd56375a2b87dfc44204c3b5f8c66fd7e') in 0.001490875 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5a3f0b01f746bf2103ec346658ba7ed2 DependenciesID=8b4fcc96ec8f13fd96a56398eda3575d StaticDependenciesID=7426e7f0fc0b3f5c58a01253f69ba6b0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/RobotVoice.unity
+  importAddress: Guid(8f18eb0b1ca4d40058a8025476920e44) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/RobotVoice.unity using Guid(8f18eb0b1ca4d40058a8025476920e44) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '3f0cbffdff721d1d001f4ffb4ea837c8') in 0.001568292 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c37eddaead472bec67a576da1c66425b DependenciesID=b7fbf61d229785317f85c80240fa8d16 StaticDependenciesID=e093e82c9dc97f2df51402416aa91981 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Plugins/FMOD/src/Editor/StudioListenerEditor.cs
+  importAddress: Guid(847f8505c25f5cf42adba68a26f2cda6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/src/Editor/StudioListenerEditor.cs using Guid(847f8505c25f5cf42adba68a26f2cda6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9aef47be7ec5eaa70ba8f66a400871f3') in 0.001335875 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=10b3a353cf3cb69d037134c278d443bf DependenciesID=3fe729216977b77e95e4a57c70c96a04 StaticDependenciesID=5bfced57c00973848a4f8279a7ff459b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Plugins/FMOD/platforms/ios/lib/libfmodstudiounitypluginL.a
+  importAddress: Guid(5aa4057a8deee1c45a69677125e2c241) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/platforms/ios/lib/libfmodstudiounitypluginL.a using Guid(5aa4057a8deee1c45a69677125e2c241) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4353037a90d79c2c3b328955b57d4b05') in 0.002443208 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dac916462d7827dd68fbb48742b39ef7 DependenciesID=7c302fede94e0e7354dbffedb0dd0800 StaticDependenciesID=90e51926657484c62c3c08f55a594150 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs
+  importAddress: Guid(6794e6301575a445d8588930a0752568) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudio.cs using Guid(6794e6301575a445d8588930a0752568) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '69e74cea114a0fb55a527845428f24af') in 0.001404917 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4ac95cc9c31d0a5e535700b832690b67 DependenciesID=b98445525027401337c4d7eb6b849a42 StaticDependenciesID=dc9d4241093b0b8e2e0231ebf1f88211 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Plugins/FMOD/platforms/ios/lib/libfmodstudiounityplugin.a
+  importAddress: Guid(79c89db1833831740aee981c0d90d2d4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/platforms/ios/lib/libfmodstudiounityplugin.a using Guid(79c89db1833831740aee981c0d90d2d4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'adcfbf501134253402a92a9b49d6d441') in 0.001479375 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ef9c5b931594e37600be067975e14449 DependenciesID=106e6566776e346c9391b0c8293595e1 StaticDependenciesID=0fefc9f0514de4f0baf995000b4534a8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Plugins/FMOD/platforms/visionos/lib/libfmodstudioL_xrsimulator.a
+  importAddress: Guid(cc7984acfd746420c810ab83b89887c4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/platforms/visionos/lib/libfmodstudioL_xrsimulator.a using Guid(cc7984acfd746420c810ab83b89887c4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'fc4f92e6be1d22cf9c3a8ebeb7b7affe') in 0.001698542 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=24c79572597b795a7bdf99784cde1748 DependenciesID=e1d99e64f5601bb1e977d0ff2c8109d9 StaticDependenciesID=c0acc470bd425aed986f379c1dff91d0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Plugins/FMOD/platforms/html5/lib/libfmodstudiounitypluginL.bc
+  importAddress: Guid(2dab3dda051681d4a9ea3ed67cb9877f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/platforms/html5/lib/libfmodstudiounitypluginL.bc using Guid(2dab3dda051681d4a9ea3ed67cb9877f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b4ac9fffb587c1a3760e815c69b8e61e') in 0.001496583 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=187104ab42c2bf72e93e7b2b0d731bbe DependenciesID=7ea7df2b8cef71532c50f4713119e492 StaticDependenciesID=723138c37d01264ae46127ccdcfdc2c4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Plugins/FMOD/platforms/ios/lib/libresonanceaudio.a
+  importAddress: Guid(bc5d15d8f7607af478126b815040cbd2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/platforms/ios/lib/libresonanceaudio.a using Guid(bc5d15d8f7607af478126b815040cbd2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1b828ed6eaeff72e563a42a4c660c814') in 0.001424834 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a5986232364cb2ae9b5ab3b4e81c27b5 DependenciesID=75391073506ec93f978d82fcb8773b15 StaticDependenciesID=51db506cc7ebed082e373486ec85b882 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FMODUnityResonance.asmdef
+  importAddress: Guid(44d09cf463b68274884d8a3c8a94e528) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FMODUnityResonance.asmdef using Guid(44d09cf463b68274884d8a3c8a94e528) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5996c71111d9e96bfd71147c2dc39372') in 0.002202958 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7acf273ee90350699db8d803f909f4d3 DependenciesID=4b5395408f4cd7f300238ba085bc6415 StaticDependenciesID=31dd5b3eaafca4279f00c4e53140fb52 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Plugins/FMOD/platforms/visionos/lib/libfmodstudio_xros.a
+  importAddress: Guid(b06ee804ac1c44c538ef636ef4e034c1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/platforms/visionos/lib/libfmodstudio_xros.a using Guid(b06ee804ac1c44c538ef636ef4e034c1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8bf633a78cf94c9851bafcb78639610d') in 0.001505666 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0704fd3ab7a9ffe619ec77fe01628ca4 DependenciesID=d25fee7d48c3caaddfe54ac1aae4978a StaticDependenciesID=8f34c3fe19eb9552142d9fbaae269a5c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Plugins/FMOD/addons/ResonanceAudio/Editor/FmodResonanceAudioRoomEditor.cs
+  importAddress: Guid(935c6716e27bd481e97897dd9e1de595) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/addons/ResonanceAudio/Editor/FmodResonanceAudioRoomEditor.cs using Guid(935c6716e27bd481e97897dd9e1de595) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0a717c47bab7f480edf4db237e123c91') in 0.001189792 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=75b80a68b2429289b9a6ffc5dd39e6a7 DependenciesID=c347d7a3279a4c4438a9942b7f43b01b StaticDependenciesID=54a86d5a04bd231c90f5ade624f97349 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Plugins/FMOD/platforms/android/lib/fmod.jar
+  importAddress: Guid(cba124c31f7e10640bc2ff9464f8ac15) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/platforms/android/lib/fmod.jar using Guid(cba124c31f7e10640bc2ff9464f8ac15) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '112e38f2a7ab2393a4beb871d89abd66') in 0.001420875 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=107eb14cfa8d0815628b35fcc2095a44 DependenciesID=cf1c9ca901268fcc8dfb41712ba01150 StaticDependenciesID=943c1ae892061a5bd34b1618f002522e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Plugins/FMOD/platforms/tvos/lib/libfmodstudiounitypluginsimulator.a
+  importAddress: Guid(86d28a38815714041bf19dc4cc59ce65) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/platforms/tvos/lib/libfmodstudiounitypluginsimulator.a using Guid(86d28a38815714041bf19dc4cc59ce65) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '567654535d2e06613b61b13839eca236') in 0.0025925 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=477db83ba7d471af759feca7722a55da DependenciesID=dad2cf4eca5e6d639fff872d50aaedcf StaticDependenciesID=629c76239a05a57e9058516944b7cf3c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Plugins/FMOD/platforms/linux/src/PlatformLinux.cs
+  importAddress: Guid(73549a74f689f0849a8271d9e908c514) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/platforms/linux/src/PlatformLinux.cs using Guid(73549a74f689f0849a8271d9e908c514) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'cebff8da33612adab9c8ba65b9e560a5') in 0.00166825 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3ef5cacbc026c479267d133a59e171ed DependenciesID=168b7fab57a58bcd3b5eb250ed7df78d StaticDependenciesID=fb2beac2f203d18a6963fd9f999287a7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Plugins/FMOD/platforms/html5/lib/libfmodstudiounityplugin.bc
+  importAddress: Guid(254f6ee9df4d3024d9c550104ea5feaf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/platforms/html5/lib/libfmodstudiounityplugin.bc using Guid(254f6ee9df4d3024d9c550104ea5feaf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ccba1d1f9e086f44b051c2cf9860ae8a') in 0.001436417 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=52523ccd1b24ad85347d534361896d18 DependenciesID=32bda38c509632acaf915bf434af8fa3 StaticDependenciesID=1fd8e5adf31e16d44576bf8d3dce3f9d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Plugins/FMOD/platforms/ios/lib/libfmodstudiounitypluginsimulator.a
+  importAddress: Guid(26235204f425d41479c8e41c99e96f50) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/platforms/ios/lib/libfmodstudiounitypluginsimulator.a using Guid(26235204f425d41479c8e41c99e96f50) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e21f93de538936072bc0162e2eabf7ea') in 0.001634458 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=23dfd6c5dfe6e4a6c5e4e12f73440ac2 DependenciesID=1a70a1673fc8d40f81e9779bef3190dd StaticDependenciesID=6cb4975d9d6bd0bc2a3d2fc698f76ed2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Plugins/FMOD/platforms/android/src/PlatformAndroid.cs
+  importAddress: Guid(97ba6cc2660c0ca498540d254701057a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/platforms/android/src/PlatformAndroid.cs using Guid(97ba6cc2660c0ca498540d254701057a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '992dbb4900210e0751821ed05760c64c') in 0.001378417 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=331805886977d1204f432a97376b6c98 DependenciesID=2306cb97538589f7e29c24802ed05bfd StaticDependenciesID=125205ccf239ff3b1deef100c0d9340d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Plugins/FMOD/platforms/tvos/lib/libfmodstudiounitypluginL.a
+  importAddress: Guid(982978af662f9ea43b7979c7f61bbad3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/platforms/tvos/lib/libfmodstudiounitypluginL.a using Guid(982978af662f9ea43b7979c7f61bbad3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b15a2685ac2c138ef4fd149d389a6f2f') in 0.001202 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=304c688c3cc3254c831bbc262130d168 DependenciesID=6d97bad4bfb5e367ecad30f4eaa80634 StaticDependenciesID=12251098d9753febdc575a272a85f0fd 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Plugins/FMOD/src/Editor/EditorEventRef.cs
+  importAddress: Guid(ceb653cd98e289a4e8697a1af55201f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/src/Editor/EditorEventRef.cs using Guid(ceb653cd98e289a4e8697a1af55201f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '68c2c7aac8847d358918202e694b3c3b') in 0.001108 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e47f3f4a5fc4a7694dca3a263bad9254 DependenciesID=669814c3d44ddac305a4772f6bce2df9 StaticDependenciesID=55f8378b131a81a4c4a05e3c53f0bdff 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Plugins/FMOD/addons/Haptics/Scripts/FMODUnityHaptics.asmdef
+  importAddress: Guid(9cdf6dc5d95f5b94cba414c3008c5c76) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/addons/Haptics/Scripts/FMODUnityHaptics.asmdef using Guid(9cdf6dc5d95f5b94cba414c3008c5c76) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd90224319cb3dec9a0d7df2d0bf7d35d') in 0.001183375 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=479b7ad289b8cd859e1a81d2109b2da9 DependenciesID=c4f4f3f9a58c85c6e56bfda9441aef17 StaticDependenciesID=6140a67fa57bb091829bf581b0fddafb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Plugins/FMOD/images/TransportOpen.png
+  importAddress: Guid(b0fb832e401d1514a9611735d8d340b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/images/TransportOpen.png using Guid(b0fb832e401d1514a9611735d8d340b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a717ba3d56002a65872c40740aa7f72d') in 0.003589917 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=52a3e50487cca03200b4a5d366a21ce7 DependenciesID=392157e8741825c5da6e8123de300fc0 StaticDependenciesID=819c8257eb41cff880a3c5de0eba3da6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Plugins/FMOD/platforms/tvos/lib/libfmodstudiounityplugin.a
+  importAddress: Guid(4abc247d0f34143ec95396c7b6bec6a8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/platforms/tvos/lib/libfmodstudiounityplugin.a using Guid(4abc247d0f34143ec95396c7b6bec6a8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '01d35a16050e5b4406896610a01ad31d') in 0.001530791 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6d8e7cc38d804698527009a8b93b57be DependenciesID=b90ba080a9ec1c4906f62245f54d687b StaticDependenciesID=ab3f186088f01f3865f13cb1772c0ae3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Plugins/FMOD/src/Platform.cs
+  importAddress: Guid(e7df340ba8041134888b271ea2124fcd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/src/Platform.cs using Guid(e7df340ba8041134888b271ea2124fcd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '00660b057b046d1c812c1a6740dc7a2f') in 0.001309 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=19cb3d6778dcef6ed6b99ebcaba3dc8b DependenciesID=afdb101c3466a5a8e3e8c16e9ae89485 StaticDependenciesID=be04842a1ebab53667795b0a88d6b86f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Plugins/FMOD/src/PlatformMobileHigh.cs
+  importAddress: Guid(93a382382f106584e8f8f62412fee177) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/src/PlatformMobileHigh.cs using Guid(93a382382f106584e8f8f62412fee177) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6d57c5793dcf22db9c37c80c07f93949') in 0.001083333 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=64dd9ff68a0d7ccfacb9b7be8ab1595c DependenciesID=0daadbb0da7036ddb2e2e38d4f4ad1fa StaticDependenciesID=c75fbef1e5698b350d78f3185dcd220b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Plugins/FMOD/src/Editor/Localization.cs
+  importAddress: Guid(3090e47fa3df08f469c1d65999e47956) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/src/Editor/Localization.cs using Guid(3090e47fa3df08f469c1d65999e47956) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f95de8aab07df557e3ffe787ff8fcd0d') in 0.0013635 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=37ae057f82195c24575a731c4355fd63 DependenciesID=bf26435ba08cf9c0d52513fa17dce689 StaticDependenciesID=06c4effe2fae0015213404c25ebed9c8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Plugins/FMOD/src/Editor/FMODEventPlayableEditor.cs
+  importAddress: Guid(fa325be8441506c4bb1462c8333ccce9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/src/Editor/FMODEventPlayableEditor.cs using Guid(fa325be8441506c4bb1462c8333ccce9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd9d199001cd5b2c8392f712045f102f2') in 0.001493291 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=84d317f606e9b017baa9bd2c02e554a2 DependenciesID=b99aca4119d54b6d6965936a5098a387 StaticDependenciesID=f14a70f125b9e895ab23316e68f9bdb5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Plugins/FMOD/addons/ResonanceAudio/Editor/zh_hans.po
+  importAddress: Guid(df892acb3265e0043b3bb1b8981b5aeb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/addons/ResonanceAudio/Editor/zh_hans.po using Guid(df892acb3265e0043b3bb1b8981b5aeb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e5bfb716349258107a38cc0d3c76a829') in 0.001447708 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a98e3a37201f34760b15109d7c672a38 DependenciesID=9f3893d3cc804dec7a53d3e8cb089f19 StaticDependenciesID=858d65003816e8645aab9ab66cdd3acf 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Plugins/FMOD/src/FMODRuntimeManagerOnGUIHelper.cs
+  importAddress: Guid(4417faacebce0de4fbde25ec23055cf4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/src/FMODRuntimeManagerOnGUIHelper.cs using Guid(4417faacebce0de4fbde25ec23055cf4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '87d72062cefc01799a06ebc24a29adf0') in 0.001546834 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=516e70991c9fe15d3473be7e890d6b47 DependenciesID=715288216db67060c8b83febee3dab8d StaticDependenciesID=5346339be3ee5d12be9dee3c50507d22 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Plugins/FMOD/README.txt
+  importAddress: Guid(081074d1d9d6ab448b88688c3730e8a1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/README.txt using Guid(081074d1d9d6ab448b88688c3730e8a1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5b933c5125a49cfa3e3d11d35c287849') in 0.001475792 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=202f7ab20f1eaa0e551b1d5ba8533966 DependenciesID=7abbaa714d9c53a92ec3d1710e41dbc2 StaticDependenciesID=68d8c50676bdf7f1ffb951e67752f957 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Plugins/FMOD/src/EventHandler.cs
+  importAddress: Guid(a28d1e1a42561ed4f8d44293dab99079) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/src/EventHandler.cs using Guid(a28d1e1a42561ed4f8d44293dab99079) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '14f9bbacff285b7d8dc64c3ad78dc196') in 0.001390625 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ea189dc10d66e33a8c761ddbbb33e49a DependenciesID=390b79e769e167f046e4af8720955a31 StaticDependenciesID=cde7fa45ce43c932e8ffabb11199b67a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Plugins/FMOD/src/Editor/StudioGlobalParameterTriggerEditor.cs
+  importAddress: Guid(0a901681b5558f247b4c227fb425c010) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/src/Editor/StudioGlobalParameterTriggerEditor.cs using Guid(0a901681b5558f247b4c227fb425c010) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '452a39ef688f7cb8e457d0e86096db1a') in 0.001407875 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e3f47741a39c956f8c7c7a88d54aae02 DependenciesID=65c37668bfb27e881e94fe3de0084af6 StaticDependenciesID=c1bfd9633c615d6f7329261cc9e7d44b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Plugins/FMOD/src/fmod_dsp.cs
+  importAddress: Guid(b7b10c26cf550794183b926ffae615a7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/src/fmod_dsp.cs using Guid(b7b10c26cf550794183b926ffae615a7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '609df92bf45c45d1f38a1a06072b508d') in 0.001409916 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b7216448030fe9302300859189d5029c DependenciesID=65cec1c8465a8674db002868c2267186 StaticDependenciesID=289fc1cf1f45160c78d754a6b697cc53 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Plugins/FMOD/addons/ResonanceAudio/Editor/FMODUnityResonanceEditor.asmdef
+  importAddress: Guid(194213485063a984b98ce9410892267a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/addons/ResonanceAudio/Editor/FMODUnityResonanceEditor.asmdef using Guid(194213485063a984b98ce9410892267a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '08afd40abaa1b7d48cd9c54ff5dfee4c') in 0.003889667 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=33efefcab9e1c986521433f1ca74fd1a DependenciesID=33e428c489819952fc6b2855773fdb07 StaticDependenciesID=30c8e32cf011f9b467db6db67cc88d98 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Plugins/FMOD/images/TransportPlayButtonOff.png
+  importAddress: Guid(29258b1336a580946bc144df00b74ac1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/images/TransportPlayButtonOff.png using Guid(29258b1336a580946bc144df00b74ac1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a26d2097e6a06cc087bbad18e22dfc5d') in 0.003775125 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7f0877ed8d39cf26529cbb0351b4b76d DependenciesID=e5f2b43eb25780802fcfb34d9c86e12c StaticDependenciesID=fdfe65f554d2aff78ca427c734a92f94 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Plugins/FMOD/images/Border.png
+  importAddress: Guid(40848578d1961334d820821bec6175a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/images/Border.png using Guid(40848578d1961334d820821bec6175a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2e2fc35dab70ec0f084811f99aba900c') in 0.003286459 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a90cdc0c53952ae565cbb15e51cf7a09 DependenciesID=ce99c4e85b1b47eec5d2997a299eea31 StaticDependenciesID=2c2fe78bb5c92338970051df10029a01 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Plugins/FMOD/src/PlatformGroup.cs
+  importAddress: Guid(6d049eb0281db9c4abd635ba1c79cb7b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/src/PlatformGroup.cs using Guid(6d049eb0281db9c4abd635ba1c79cb7b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '3555a40da989e809267db1a92e4fdc37') in 0.001471209 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f1b04c0f08dcd2696196bc6d574c8c62 DependenciesID=06ca2d8b96bbe579e8a9834d05470292 StaticDependenciesID=7110913670b490a56e8201d41d6c1e36 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Plugins/FMOD/platforms/ios/src/PlatformIOS.cs
+  importAddress: Guid(bc1f51bc35d549941904cf062bae93a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/platforms/ios/src/PlatformIOS.cs using Guid(bc1f51bc35d549941904cf062bae93a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c38498c0ddf956084c0d16807c3d7f28') in 0.001417667 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4f6ba811a803633f44bed82d8695b97a DependenciesID=757ee39d8688ceface2590e4f365c2d7 StaticDependenciesID=385431675282e93bf990282699b98b7d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Plugins/FMOD/images/TickGreen.png
+  importAddress: Guid(27533226416c4f549b9bec9c024100f7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/images/TickGreen.png using Guid(27533226416c4f549b9bec9c024100f7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '49a4db2680780f1c73e4f98f985c744a') in 0.003324042 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ad3c0b6f3be9460dc7742e6f05e0ecab DependenciesID=54060afa10dc5f29fc8fc201d9e4a749 StaticDependenciesID=6a200768a9b21c628f8d374a330e715c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Plugins/FMOD/images/LevelMeter.png
+  importAddress: Guid(21e7a3d41a926364a8b9a6704ebe80d8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/images/LevelMeter.png using Guid(21e7a3d41a926364a8b9a6704ebe80d8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f6923ddf63da7f2cf3681ee93cece2b5') in 0.004364583 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8a6fe68fca9e464c56acf4b9b3872a97 DependenciesID=ee1b427ba8e935cb2a0736792415a333 StaticDependenciesID=ce8ab9b4c20b9fad94e7cbd0cfa51705 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs
+  importAddress: Guid(353a9c870c318f74fa5fdcd475129bae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/src/Editor/SettingsEditor.cs using Guid(353a9c870c318f74fa5fdcd475129bae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c839bf684ef810923d25ed5f90b1d314') in 0.001244792 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d7228738d9040b59b67ff526c48c6be2 DependenciesID=2f799bb6c62b4835c3101299ba2f040c StaticDependenciesID=935dcfe8afe1fbd02c0c651068f02310 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Plugins/FMOD/src/Editor/FMODUnityEditor.asmdef
+  importAddress: Guid(aab3caaf43456d6449a3e035348ff798) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/src/Editor/FMODUnityEditor.asmdef using Guid(aab3caaf43456d6449a3e035348ff798) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f42ab94c699e08d52d519518c23cfc33') in 0.001336833 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dc187006850ef8ceb3b6ffe0c867bd67 DependenciesID=f8354def4853768dcf866dbc9f0bc9e5 StaticDependenciesID=c1e0a23e7fa349faef0e8dd5d268a981 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Plugins/FMOD/images/SearchIconBlack.png
+  importAddress: Guid(99471facfde9fb84dbe4a81ad570ebce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/images/SearchIconBlack.png using Guid(99471facfde9fb84dbe4a81ad570ebce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8bc87c8f8d3835f38e43555321929af7') in 0.003069625 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3740d4c267553191a6629956cdb919bd DependenciesID=946c5408a0c058d4cf332b8383086a33 StaticDependenciesID=fc8a5569da0a0ec15a34560720a541e5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Plugins/FMOD/platforms/visionos/lib/libfmodstudioL_xros.a
+  importAddress: Guid(240b87501d4c14726b85b03230183106) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/platforms/visionos/lib/libfmodstudioL_xros.a using Guid(240b87501d4c14726b85b03230183106) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd8ff90f34f99fb501779289558ea3ebe') in 0.00132275 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bc4726b1637456e576c4d0f6a6ea5188 DependenciesID=d4480bb8991d6d98bd6020b06a39002f StaticDependenciesID=d6302373318519269832ce1054c47cfe 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Plugins/FMOD/images/DiscreteParameterIcon.png
+  importAddress: Guid(509563e7079a6ed4cbf3b3240327e702) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/images/DiscreteParameterIcon.png using Guid(509563e7079a6ed4cbf3b3240327e702) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0054615e157188a5cbe886d0e8774f21') in 0.003502333 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=adac4fec145e034139b53b5c952c1881 DependenciesID=79fa80b140041be360f8f477a6aa6c7f StaticDependenciesID=3d18ac56fbf3ef93b9b75f562423bc89 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Plugins/FMOD/src/AutomatableSlots.cs
+  importAddress: Guid(9c13d4e62f5f7b44bb33162cbf29a9f8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/src/AutomatableSlots.cs using Guid(9c13d4e62f5f7b44bb33162cbf29a9f8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '527d845cd99802dea1caeb313cf09c81') in 0.001367 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=970cf3efe55252c566343ca112b93fba DependenciesID=ac59751b26af64d6f361e89a371d5d3a StaticDependenciesID=b0051aa430c653a2bd6db05f9673b216 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Plugins/FMOD/src/RuntimeUtils.cs
+  importAddress: Guid(6e349601408e423499e7b9f75216091d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/src/RuntimeUtils.cs using Guid(6e349601408e423499e7b9f75216091d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b07a5dc38b4e68c670d48dae1fb4f23b') in 0.0014515 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1a3c880d7cfdca7ccd5883a81fa0e42b DependenciesID=cc16ccb95be7ce36561b5b1b9475dfcf StaticDependenciesID=b229f315b997fad22f282e7c00391bef 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Plugins/FMOD/images/FolderIconOpen.png
+  importAddress: Guid(d2b54e4f7f80b9448a41d3c5985f5672) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/images/FolderIconOpen.png using Guid(d2b54e4f7f80b9448a41d3c5985f5672) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6d02838dfae79a1c73dbdafb012385bc') in 0.004520625 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b6704c8d86905d4119235a7b72fc291a DependenciesID=f7d65c1f19230b9e28562d6f5b353b7d StaticDependenciesID=18034ffbe8b333a5fe4b76b5c2c7a45f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Plugins/FMOD/src/Editor/EventManager.cs
+  importAddress: Guid(1fc38201a5edb994c874a4a61e96053b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/src/Editor/EventManager.cs using Guid(1fc38201a5edb994c874a4a61e96053b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c02bf4c95b07931fb867ee13f29aaaa3') in 0.001498667 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1c3f32abbbaab448e3c5d1873837643b DependenciesID=8b276d492f343518d4ee7b325ebb5f2c StaticDependenciesID=b60217dd15a0938668e3c5b411f33633 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Plugins/FMOD/src/Editor/ParamRefDrawer.cs
+  importAddress: Guid(ea88808aa26cd614db1c5c1dcbb14d4e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/src/Editor/ParamRefDrawer.cs using Guid(ea88808aa26cd614db1c5c1dcbb14d4e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ce5c55d51453e783a3b49259ab529a46') in 0.00110375 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e28960cfd801b0eab241905f5650754e DependenciesID=53e89f01b46ad32131757da0a001ab10 StaticDependenciesID=c8ff8d7827f64f86a7514e3bfcc83ce3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Plugins/FMOD/src/FMODEventPlayable.cs
+  importAddress: Guid(987a467495df9d942b56b1b51381d095) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/src/FMODEventPlayable.cs using Guid(987a467495df9d942b56b1b51381d095) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c8a8a36f71f2f0d05803dd556474fa1b') in 0.001183459 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fd4b47c51e3a9d1b20435c3837b5864d DependenciesID=9bddc2bd395eaaabcf6f07386d7ead02 StaticDependenciesID=2c5ecb399be6b2ebe934ba1650365580 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Plugins/FMOD/platforms/tvos/lib/libfmodstudiounitypluginsimulatorL.a
+  importAddress: Guid(649598f6abf894e128aa33102756da99) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/platforms/tvos/lib/libfmodstudiounitypluginsimulatorL.a using Guid(649598f6abf894e128aa33102756da99) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'cc2f64339cfb0b6d395b524929d8e3f9') in 0.001653291 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2451e24bb746083d3b1dac5ef7d0781b DependenciesID=b61ceeca0958469683a6bf45a7b2bd6c StaticDependenciesID=af013080ca9eefcda1d82af3111dddf7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Plugins/FMOD/images/TransportStopButtonOff.png
+  importAddress: Guid(cafa069c15865d543a07375373f0a18e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/images/TransportStopButtonOff.png using Guid(cafa069c15865d543a07375373f0a18e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '88e603004f53aa1cb806e4d8c0c43aea') in 0.00340575 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=69d0988a7bab2f1e440730c6a2e390cf DependenciesID=0b413fb1088fbdcf55cae45ecd6e57cf StaticDependenciesID=0b978ebb710a3bd0b7d1657afb096c78 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Plugins/FMOD/src/BankRefAttribute.cs
+  importAddress: Guid(a8ab5f38e7776644297d8b3687c39b49) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/src/BankRefAttribute.cs using Guid(a8ab5f38e7776644297d8b3687c39b49) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e820e0cb5822c893ce5564cd284ae883') in 0.0015285 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f288d86f016beee825e91193027c32e9 DependenciesID=8a3feca5eb606927da2dc3b6621ebd04 StaticDependenciesID=4cc3b87758241495b6a9ab38dbef0525 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Plugins/FMOD/platforms/html5/src/PlatformWebGL.cs
+  importAddress: Guid(b87314b32fbe18943af496e4b47136c6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/platforms/html5/src/PlatformWebGL.cs using Guid(b87314b32fbe18943af496e4b47136c6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7c8c2f4e2c3ca3b14d29932620d74b17') in 0.001181875 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=87ef70fea89af11f95cf6072b6a282bd DependenciesID=60029b6f909c91e8a6349b25d4ee271e StaticDependenciesID=d5d4a7bf9ad7b426f40b5c708f6311ee 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Plugins/FMOD/addons/ResonanceAudio/Editor/Localization.cs
+  importAddress: Guid(6711f1f86af21644c897cc89748266f6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/addons/ResonanceAudio/Editor/Localization.cs using Guid(6711f1f86af21644c897cc89748266f6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '451a9c2586e4d80bd83afc5bf3a98a41') in 0.000961041 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d3738bf06fc0e38c6afe02044794ec41 DependenciesID=2e02598ca4a7d1344b7158eeb23ee1f9 StaticDependenciesID=1782360554c169499810594d34867eb1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs
+  importAddress: Guid(3349615af02d64e4e8d1026e228c4a25) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/src/Editor/FileReorganizer.cs using Guid(3349615af02d64e4e8d1026e228c4a25) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2d8bd8728b3a10b49075d0e780cfb338') in 0.001290041 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=35313df4aacb22213cca21518313bd38 DependenciesID=650f44c0e3dc65e09e97a9bfa78d14b8 StaticDependenciesID=da3cb8e305e441c8c4e5264cf0f7cb7e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Plugins/FMOD/platforms/ios/lib/libresonanceaudiosimulator.a
+  importAddress: Guid(5ad1791b3b48a4ba39c30a2b4f438486) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/platforms/ios/lib/libresonanceaudiosimulator.a using Guid(5ad1791b3b48a4ba39c30a2b4f438486) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9cab8500df6b27530373855a474ebed3') in 0.0017425 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=569270d9f776ba8a78862cc264712e9f DependenciesID=30ff5adc8ca59f5857af6ddd960e1203 StaticDependenciesID=51a13651333c95df5808306d86337965 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Plugins/FMOD/src/PlatformDefault.cs
+  importAddress: Guid(9587379c972e4a54da1949613f11e1c6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/src/PlatformDefault.cs using Guid(9587379c972e4a54da1949613f11e1c6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '3422e8075108581f71a7664f7465eaef') in 0.001297 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a423249988081b2bc49ddbf9897d3b6 DependenciesID=a464ca3a664375d88a06af20068b2bb4 StaticDependenciesID=332eea2dc08f05f4f9df1c1d076802d2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Plugins/FMOD/src/Editor/StudioEventEmitterGizmoDrawer.cs
+  importAddress: Guid(f09ba26caab55e048a2e596ff75b3eab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/src/Editor/StudioEventEmitterGizmoDrawer.cs using Guid(f09ba26caab55e048a2e596ff75b3eab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7d7eec31b4fd25767de8c4f4ef7564fb') in 0.001212834 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9558aacb2b69654eb29462c301ec2c62 DependenciesID=bbf8dce7b3be77ddf9b40e0dc1a9830a StaticDependenciesID=910b14ccee8d25cf773de2f2f808ca47 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Plugins/FMOD/images/AddIcon.png
+  importAddress: Guid(3300e81f02e64924eb7cb7782713b126) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/images/AddIcon.png using Guid(3300e81f02e64924eb7cb7782713b126) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c00e15619a9ed7f5aae20ba1b6bcab21') in 0.004523958 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7ff457d0c41338a5ea25dd9eef6f42af DependenciesID=64d3b5a32e6f0318d517ccd45677b992 StaticDependenciesID=f980f57eefcfb23f3afa08cbc0c48c99 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Plugins/FMOD/src/ParamRefAttribute.cs
+  importAddress: Guid(7ae6224668d1647429723f89e10d593f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/src/ParamRefAttribute.cs using Guid(7ae6224668d1647429723f89e10d593f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6c8b5ca6f6e2ae52e2f701e32f9a69da') in 0.00176275 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e0e90439a875615ac9536710cf600ae8 DependenciesID=1fe8f76284462ba37c6ab1bd1efce8cf StaticDependenciesID=aee6e57c571b3d43637a2511f5a649b0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Plugins/FMOD/images/BrowserIcon.png
+  importAddress: Guid(c783b763d12874147876e070661b66ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/images/BrowserIcon.png using Guid(c783b763d12874147876e070661b66ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '751429148943bc8593a30c19e3226519') in 0.003452 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b8f2d8234faa1db76b9da4e55ac92830 DependenciesID=86a1d344ce1f14514a496409c31b9b7d StaticDependenciesID=7a2bd14588116b842a71402d89f078d9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Plugins/FMOD/src/Editor/CodeGeneration.cs
+  importAddress: Guid(438155f6a2d689e45b5cc7701d412b80) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/src/Editor/CodeGeneration.cs using Guid(438155f6a2d689e45b5cc7701d412b80) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '12f4f4f89b48d80a29503da38820980e') in 0.001455875 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dc13635310fd53a117e5b40b8ccc1669 DependenciesID=80eb65f98e78f1fa5d6f922410466c11 StaticDependenciesID=cd5746533167598ddbad6b613648fadf 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Plugins/FMOD/src/Editor/EditorParamRef.cs
+  importAddress: Guid(fecb8ef7f94ca804a8ab72049b86782e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/src/Editor/EditorParamRef.cs using Guid(fecb8ef7f94ca804a8ab72049b86782e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '3bb0be809671b616a546089a168288cd') in 0.001583834 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=db830cc88454ec4ec4e53a9e1549dad1 DependenciesID=996dda9769e8f048451b705db7abfdeb StaticDependenciesID=03b2f856d49e18ca7fc2c55043258797 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Plugins/FMOD/images/Delete.png
+  importAddress: Guid(196080340db65c44883dd3f599556fb9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/images/Delete.png using Guid(196080340db65c44883dd3f599556fb9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '83b0f0084417e3aa6dfeeda68d9ad6ca') in 0.003634583 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=50ab0ce2a583440b7954f5913186acb7 DependenciesID=2d51f33daca61a7d58ea9a4ea5c36eea StaticDependenciesID=5f32a55c639b7495c41a8aa7c397d824 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Plugins/FMOD/src/Editor/EventBrowser.cs
+  importAddress: Guid(5332ad2baabb58844975479e906001c8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/src/Editor/EventBrowser.cs using Guid(5332ad2baabb58844975479e906001c8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '3c428544785031814fa87a874efeafaf') in 0.001543666 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=007ff2421c634a5c6d88de85102a9b5e DependenciesID=a20f62a5d74ec3e26cfc88515638c659 StaticDependenciesID=30413539dccf77269ea083002df3630f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Plugins/FMOD/src/Editor/EventRefDrawer.cs
+  importAddress: Guid(29a86a77bf7568e499243d9b47b7e88e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/src/Editor/EventRefDrawer.cs using Guid(29a86a77bf7568e499243d9b47b7e88e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '68cc86d2c9dccdd89977b67843b9e5fc') in 0.001192959 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=318363989c7d7b6bd82ca7865c464720 DependenciesID=9d23686e3f9245c737a710ea4412107a StaticDependenciesID=45de5d07c12629e09a63f5e870f7c0e4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Plugins/FMOD/src/Editor/CreateEventPopup.cs
+  importAddress: Guid(9c9773a32ed4a2b429fd42645175c32b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/src/Editor/CreateEventPopup.cs using Guid(9c9773a32ed4a2b429fd42645175c32b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8e5bbe0af02debb30e9a85e0336f4ef0') in 0.001092709 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=18f61a609e1bad4816cb24fbaf57c0d7 DependenciesID=2502113ea172d44682218c7702fb7eda StaticDependenciesID=3733f80d754b6dfffc348c405338135e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs
+  importAddress: Guid(6b0c5e63920ee4f55b7ec5248525af4b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs using Guid(6b0c5e63920ee4f55b7ec5248525af4b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'fdd5fdaa8ed7cc23c6a466d1cae9db04') in 0.001559375 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=068d996ff0daca6308297fbb2a1e0db2 DependenciesID=cfd18f050e2744ce765d189e77a4e506 StaticDependenciesID=1d73821d12538c0328f089e8bd7a842c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Plugins/FMOD/images/TransportStopButtonOn.png
+  importAddress: Guid(eab53cb0959d1244aadeacf8b76c755c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/images/TransportStopButtonOn.png using Guid(eab53cb0959d1244aadeacf8b76c755c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '04ed6a9ec1cb1718fbcbd8efb04e982d') in 0.004478541 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=24c72b765122e425ec730cc68dabf837 DependenciesID=5d50f9e8d67510413c46c2f4adf04812 StaticDependenciesID=7e4357d1e58431aba4dd70c83b596849 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Plugins/FMOD/src/Editor/zh_hans.po
+  importAddress: Guid(6bc0be9e3a234d3429dfe763083ef8a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/src/Editor/zh_hans.po using Guid(6bc0be9e3a234d3429dfe763083ef8a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f75dc4bbc24515e5df530689420e7118') in 0.001804625 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c5cbdd0dfb80d79b8078a7b7399de213 DependenciesID=4d8faf03d02e62f002a8d6fb0c556351 StaticDependenciesID=0c14b705e8070f66148f60eb9c08232b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Plugins/FMOD/FMODUnity.asmdef
+  importAddress: Guid(0c752da273b17c547ae705acf0f2adf2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/FMODUnity.asmdef using Guid(0c752da273b17c547ae705acf0f2adf2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6e8fbe2051c7565c018e3f5d26be6560') in 0.001570375 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0f80cd8292a11586f58c1d3a4d9375b9 DependenciesID=72b8489865e4c9b305a1644adeda0980 StaticDependenciesID=a6a62cdc8d1fbc4b3e86d0b39e022515 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Plugins/FMOD/images/SnapshotIcon.png
+  importAddress: Guid(cf2bba5fb8be7e64ca39979f18eb372a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/images/SnapshotIcon.png using Guid(cf2bba5fb8be7e64ca39979f18eb372a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '29c98fa6ae19ddc569dafc5ab72d62d7') in 0.003464625 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f2d7c8431c609ef75800acbf290a4c64 DependenciesID=ad3b8baa3c7a5e07ae493a987ce55765 StaticDependenciesID=628435242e761ebc5cd84111f095c583 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Plugins/FMOD/src/Editor/StudioParameterTriggerEditor.cs
+  importAddress: Guid(dc94d213814ef1a42b0ca8ee00dd4728) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/src/Editor/StudioParameterTriggerEditor.cs using Guid(dc94d213814ef1a42b0ca8ee00dd4728) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'bc874b93335bafc122e38dd1697bf53a') in 0.001539125 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dd37ddf0d9521abae3303a4b9bfaa9d1 DependenciesID=86d70676e2e8cb405f2a5451b1d16db7 StaticDependenciesID=f24787c91dd26043134552d384723152 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Plugins/FMOD/images/ArrowIcon.png
+  importAddress: Guid(01c0101f357b9da4ba78b8f58c290f86) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/images/ArrowIcon.png using Guid(01c0101f357b9da4ba78b8f58c290f86) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '86e46722671447d88f0c698f16290e08') in 0.003568416 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=607fc3dd319e9ff22f674d4e9bb36bea DependenciesID=e18139dcdb2537e3b6418e66918f3249 StaticDependenciesID=8564ebaa605493a9944214179b2bea88 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Plugins/FMOD/src/RuntimeManager.cs
+  importAddress: Guid(5e5fb8ce07f0ce84b9d1852869527ea5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/src/RuntimeManager.cs using Guid(5e5fb8ce07f0ce84b9d1852869527ea5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c2daf0d33295acd58b0a47eb3586102d') in 0.001486042 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=579bff56d2eea9273508328e55d8f663 DependenciesID=658178c43f094bd12fcd4afda3ea19c9 StaticDependenciesID=105912a2e239aff434b4f10482ee31ea 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Plugins/FMOD/platform_ios.mm
+  importAddress: Guid(fc7eb3c9194584004bdf04921e5cb057) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/platform_ios.mm using Guid(fc7eb3c9194584004bdf04921e5cb057) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '11145eab4e142795d2d6d68791457355') in 0.001568167 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=385c1f2dd2dde8075e823db9474a9c88 DependenciesID=13748905c64383337f82c3b42bb5d908 StaticDependenciesID=675a35d8ced2aad6b09ab6f7080aa791 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Plugins/FMOD/src/fmod_studio.cs
+  importAddress: Guid(ae7eb0b6a2bff364b9c1fae52173e74c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/src/fmod_studio.cs using Guid(ae7eb0b6a2bff364b9c1fae52173e74c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '873668b6a0a5bc8f902e7f52c2b24925') in 0.001039792 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4db3e9ff8d29f716034d9fd5feabd2d0 DependenciesID=0c399255c5370317fe547de3ed3e372a StaticDependenciesID=b6e685aec683af4eacf4bc1784edb9c4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Plugins/FMOD/Resources/FMODStudioSettings.asset
+  importAddress: Guid(fbdcd7fbc9630401fba7e1783c4d8e3c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/Resources/FMODStudioSettings.asset using Guid(fbdcd7fbc9630401fba7e1783c4d8e3c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ee74e9221b6c9562d70f1fcfd51dc95f') in 0.033003166 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=de2ab6e4e536bfec5b8cb2ce11b42df7 DependenciesID=d5531424cef50f29891b39cc9b32665d StaticDependenciesID=6303da2ca2f9464999b4576db75c8d8f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Plugins/FMOD/src/Editor/EditorUtils.cs
+  importAddress: Guid(2bb4068641d1f71478f95a9b73533f51) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/src/Editor/EditorUtils.cs using Guid(2bb4068641d1f71478f95a9b73533f51) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c5d8d3fbb5aeacd2c8fbd6ef2fbd96fc') in 0.001364125 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ada4293030a44b40a32d49b91f88a009 DependenciesID=8cfb06d89c15ea081b63adb9b71743ea StaticDependenciesID=8a08a079c76fa4555e9c766cc58c4716 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Plugins/FMOD/src/PlatformMobileLow.cs
+  importAddress: Guid(3abeb1429547a134480f4f2f1efc7e21) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/src/PlatformMobileLow.cs using Guid(3abeb1429547a134480f4f2f1efc7e21) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '57352880c7e35f7f602ed126d773710f') in 0.001261084 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3966d9c597f0b5767152c8bc16a4528d DependenciesID=614308c4933670b1edf9b132e10164f0 StaticDependenciesID=ca0b35765c1465258405824b6550696d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/DayNightCycleController.cs
+  importAddress: Guid(00f92ae0248824c8ea35cc93d964bc86) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/DayNightCycleController.cs using Guid(00f92ae0248824c8ea35cc93d964bc86) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8fddfd9d0f7e6e732600eaef9f94f7af') in 0.002106375 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c259a6aac48034d6e117e7a8b45328a8 DependenciesID=c7de75d4c86bcb4c66de75c0955edaea StaticDependenciesID=4a4b421842040259ea55158d80927734 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs
+  importAddress: Guid(0b58df65bd3bb6649801b24a7a942ccb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/src/Editor/EventReferenceUpdater.cs using Guid(0b58df65bd3bb6649801b24a7a942ccb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '43810a80ac2ef6176479451864543e2c') in 0.0013955 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7c38618e713d346f675ea727251c34ba DependenciesID=4b5779089adb902741bd7a23c32989aa StaticDependenciesID=42c180780e590a9c7254abaf472ab484 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Plugins/FMOD/images/NotFound.png
+  importAddress: Guid(1138ab068176f29499337d7a73dfecd9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/images/NotFound.png using Guid(1138ab068176f29499337d7a73dfecd9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '598c3736aeca4e554555974bdd2c40df') in 0.003276375 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=943e4bc3dd6b839685e88cb6200dd709 DependenciesID=5f376b7bdd01bdee498083bdf0571dcf StaticDependenciesID=1f26607ef75276b4f1679edb12571709 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Plugins/FMOD/images/FMODLogoBlack.png
+  importAddress: Guid(36e46b3c334e47e41a0b4ff2f26905ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/images/FMODLogoBlack.png using Guid(36e46b3c334e47e41a0b4ff2f26905ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '71f017fed5f22f70809a9904356de4c6') in 0.003209792 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=00d27a5fb1ac048021ded0887ff3627b DependenciesID=a19574734594e1e09bd8a68317ebdb7c StaticDependenciesID=1020298e07a62b83ad01b1628774ca9b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Plugins/FMOD/images/BankIcon.png
+  importAddress: Guid(a7e06068a7215854a84bf5ed8280ed15) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/images/BankIcon.png using Guid(a7e06068a7215854a84bf5ed8280ed15) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5df18389f3d2e8b77b681753cccf1297') in 0.002901334 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=38c352a2d2d0640c10cc888878d0e5b8 DependenciesID=7ee52818626abe61f7202b3a3f077143 StaticDependenciesID=62b1851d314612dd220918ff46b43d50 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.285194 seconds.
+  path: Assets/Plugins/FMOD/platforms/visionos/lib/libfmodstudio_xrsimulator.a
+  importAddress: Guid(da47e54c091124c7baa78e13f90216f3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/platforms/visionos/lib/libfmodstudio_xrsimulator.a using Guid(da47e54c091124c7baa78e13f90216f3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'db20a45d393dc6236f64d7c52918a77c') in 0.002408958 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1aed185baca9949b94f86e3231cd4643 DependenciesID=1cf6dc2167d89a01c008ef237333ee97 StaticDependenciesID=c46c6700d9cbfead9e79c0a30119576e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Plugins/FMOD/platforms/win/lib/x86/fmodstudioL.dll
+  importAddress: Guid(6d52ab0527f3d48dbbba1558ca18544f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/platforms/win/lib/x86/fmodstudioL.dll using Guid(6d52ab0527f3d48dbbba1558ca18544f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '60e20c34194c2454b79e819d7e91a6f9') in 0.001553291 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b0cd198cdf7929fa803d42f78d07fe39 DependenciesID=a4195d6a301c2769a7ffed77e4a65536 StaticDependenciesID=613e8b2046b9296da59413bf32e77824 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Plugins/FMOD/platforms/uwp/lib/x86/fmodstudioL.dll
+  importAddress: Guid(43ab9a198caf2d841b813eb81e02486d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/platforms/uwp/lib/x86/fmodstudioL.dll using Guid(43ab9a198caf2d841b813eb81e02486d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '01e427e791fff3bcd16834d02157e7f0') in 0.001414917 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=afe1a3ac896be6a1c404deeab5fa5c30 DependenciesID=9c8ac3b778fa18d81b7354ec517a3ced StaticDependenciesID=415d104c4e035c3b4c6bd7b095d22e3a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Plugins/FMOD/platforms/linux/lib/x86_64/libfmodstudio.so
+  importAddress: Guid(9063aa11b1fcfcf4cb6030a076d14a30) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/platforms/linux/lib/x86_64/libfmodstudio.so using Guid(9063aa11b1fcfcf4cb6030a076d14a30) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '175ab6f2cbf94480d2931d11b9e52a81') in 0.0016945 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=830518ac80d6a44204e3ee86f88fa907 DependenciesID=42cf34b9934f503d1ba81ac7025c15d2 StaticDependenciesID=eaa778bce5b7e4bfbe7fc71bc898962b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Plugins/FMOD/platforms/android/lib/x86_64/libfmod.so
+  importAddress: Guid(7b1a5b0e7617bcf49885fb2dd09d7085) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/platforms/android/lib/x86_64/libfmod.so using Guid(7b1a5b0e7617bcf49885fb2dd09d7085) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f2ad54c873ccf9586cb7c7271c52a76d') in 0.002427334 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=24d1925e7a551c53e087aada1c8fe0c6 DependenciesID=f6132c373e45f5f889425b7056c3aff5 StaticDependenciesID=40c47c29dfbf295427df2fd687c6c962 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Plugins/FMOD/platforms/uwp/lib/arm/fmodL.dll
+  importAddress: Guid(82bacb4b0f3cc85418d2a1aa2ca57df6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/platforms/uwp/lib/arm/fmodL.dll using Guid(82bacb4b0f3cc85418d2a1aa2ca57df6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '075eb1c2b05b852e210cd28d55761e70') in 0.001631916 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6b1bf7c46b108a28e0bfce8aff33fde3 DependenciesID=36c21defa4fddad4f16326bfb5aac5e9 StaticDependenciesID=bf7295b91b044589c554fed7a30d6b0e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Plugins/FMOD/platforms/android/lib/arm64-v8a/libfmodstudio.so
+  importAddress: Guid(e4d6c68823f34e440bfe4e4ecba4c113) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/platforms/android/lib/arm64-v8a/libfmodstudio.so using Guid(e4d6c68823f34e440bfe4e4ecba4c113) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '34a2aaaa65c5a93dd8512b119a435dc3') in 0.001286459 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b1e147b16731fe88aba529d388ce83c5 DependenciesID=a9f5f17adebbbed08eb970e85ef60817 StaticDependenciesID=3aa7cd6d5f027ec23484ea5f11e87353 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Plugins/FMOD/platforms/win/lib/x86_64/resonanceaudio.dll
+  importAddress: Guid(4c8fb9b92ea2eae4f9112a3941c4f128) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/platforms/win/lib/x86_64/resonanceaudio.dll using Guid(4c8fb9b92ea2eae4f9112a3941c4f128) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ecc6908a2aa939d75d9a6870e72e6c3d') in 0.001551292 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5cc97c4918f1ce34a321f2319301a529 DependenciesID=2a778e1b4fafb99fad62470a8f936942 StaticDependenciesID=021f97378a7476d84eb09c4829f25db3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Plugins/FMOD/platforms/uwp/lib/x86/fmodstudio.dll
+  importAddress: Guid(ecb0cc0019197154b9baeef623b6ec0a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/platforms/uwp/lib/x86/fmodstudio.dll using Guid(ecb0cc0019197154b9baeef623b6ec0a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5d86c582412cc2f4c436d75f00dd7235') in 0.001589 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=42b45651d512d39e77690767915d7eed DependenciesID=3880cc70ac9e610d517833572f681117 StaticDependenciesID=60d99a29cad1cb13ed0c643a9459a911 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Plugins/FMOD/platforms/android/lib/arm64-v8a/libfmodstudioL.so
+  importAddress: Guid(85af50ee41bfd9c4fbd8107aee814c50) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/platforms/android/lib/arm64-v8a/libfmodstudioL.so using Guid(85af50ee41bfd9c4fbd8107aee814c50) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'bc0e4ea29521fc064aed1e36b3dd8cd9') in 0.001304458 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b9effa3f059aad5cf71a455e3d0c19a9 DependenciesID=ba86defbab174024efde72462ccb0f41 StaticDependenciesID=eef6506a147ff091cb4578247afd0a1a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Plugins/FMOD/platforms/win/lib/arm64/fmodstudioL.dll
+  importAddress: Guid(836c63b50f4a84f2a8c9d2ab47d9ca7a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/platforms/win/lib/arm64/fmodstudioL.dll using Guid(836c63b50f4a84f2a8c9d2ab47d9ca7a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '79f9575041ee537459b345899a07666c') in 0.001472166 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b9a36b3b23c4ca5d90dba3772915566a DependenciesID=d4f92121d4da52d4cacccab29a8456f1 StaticDependenciesID=aaa77f46e3ed5724da935f8493fc6825 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Plugins/FMOD/platforms/android/lib/x86/libfmodL.so
+  importAddress: Guid(54236e4c5b88f494598efb4d226b44f0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/platforms/android/lib/x86/libfmodL.so using Guid(54236e4c5b88f494598efb4d226b44f0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '194013593aa449378cbc98446210c168') in 0.001230167 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=575857ac727b0a16fe10e8bb80d7a572 DependenciesID=afb2a1ad4dbf3707d3537c85c941d659 StaticDependenciesID=a3c9773048aa057778cf725a4874201c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Plugins/FMOD/platforms/android/lib/arm64-v8a/libfmodL.so
+  importAddress: Guid(6f74d8321b529d948a7672da4ca54356) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/platforms/android/lib/arm64-v8a/libfmodL.so using Guid(6f74d8321b529d948a7672da4ca54356) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1c3bf481255d73cd439902b63f7a5763') in 0.00136225 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=51044368327da5c9061e3c444d6513a1 DependenciesID=466581615076c30c58b9f42b2cc8afd6 StaticDependenciesID=bdb9e6a80bb33852c5dfea33b92a52c4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Plugins/FMOD/platforms/uwp/lib/x64/fmodstudioL.dll
+  importAddress: Guid(813ca429588de5d40b5c8a184a15bcd9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/platforms/uwp/lib/x64/fmodstudioL.dll using Guid(813ca429588de5d40b5c8a184a15bcd9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4a8709b1a0d629ac87ea06fc13329df0') in 0.001380667 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b0b6ea855c00d305951012dc76a5dcfe DependenciesID=74a66d23f35c01921a086ad138d6ee5c StaticDependenciesID=1eb1ba9fd91b36042f777587a0c590cd 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Plugins/FMOD/platforms/win/lib/x86_64/fmod_haptics.dll
+  importAddress: Guid(fd2f2e1f681d25d4e84aa02353d6e510) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/platforms/win/lib/x86_64/fmod_haptics.dll using Guid(fd2f2e1f681d25d4e84aa02353d6e510) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '68d04f9b6a224845d29789fea2f0cfac') in 0.001281833 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=82c6c1cc9a61fa72fd45963449facafa DependenciesID=99c19c825daf4d10780932f7acfe4ebc StaticDependenciesID=d52647f01ff410bdd734d900e49f863e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Plugins/FMOD/platforms/linux/lib/x86_64/libresonanceaudio.so
+  importAddress: Guid(bca6f630c310b4945b52486d2ed1da0a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/platforms/linux/lib/x86_64/libresonanceaudio.so using Guid(bca6f630c310b4945b52486d2ed1da0a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'dda59feb62a4bb7771e2aa15d5c5f684') in 0.001401375 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=097e2cf2255399399933ecddb9fc11a7 DependenciesID=3a187e1742a99b0c057b21eeff64277f StaticDependenciesID=c8d5c3000fdbd23f4cfef5aeb5329490 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Plugins/FMOD/platforms/android/lib/quest/libfmod_haptics.so
+  importAddress: Guid(1408fea401f68214daa96a07fd44428b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/platforms/android/lib/quest/libfmod_haptics.so using Guid(1408fea401f68214daa96a07fd44428b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c1b2d7028c6d7099149d13b3979104cf') in 0.001267833 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dcc99ad92d4bee75918f7c61059adea7 DependenciesID=c48d4385a4675a0cb1c9e66c54b25ed4 StaticDependenciesID=7a60ef57ae4d797de8f34265359941c3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Plugins/FMOD/platforms/android/lib/armeabi-v7a/libresonanceaudio.so
+  importAddress: Guid(fb0aabfc61c4c1548ac6990286c84327) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/platforms/android/lib/armeabi-v7a/libresonanceaudio.so using Guid(fb0aabfc61c4c1548ac6990286c84327) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd966c8a58d40858d6024e98b03464511') in 0.001364 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=46fee158cb417be5e30f7b97ba76d117 DependenciesID=008753ed9cb1f6ab0c40649227447ccb StaticDependenciesID=228ea392ae492d577a370ed75380c6aa 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Plugins/FMOD/platforms/uwp/lib/x64/fmodL.dll
+  importAddress: Guid(d15f9d3e1089b114a8f625e994fea839) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/platforms/uwp/lib/x64/fmodL.dll using Guid(d15f9d3e1089b114a8f625e994fea839) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e6534961a73b00a6a64758f090062207') in 0.001531667 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=122bdef581e9fe9effab8bdacccff41f DependenciesID=2484e6ddf8364a1cb1336b9f23d08d73 StaticDependenciesID=1d3613f30b1fac566ee05434a2d75b0c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Plugins/FMOD/platforms/android/lib/arm64-v8a/libresonanceaudio.so
+  importAddress: Guid(2bd9aca31d63ca248bf159e7562a3609) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/platforms/android/lib/arm64-v8a/libresonanceaudio.so using Guid(2bd9aca31d63ca248bf159e7562a3609) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b2b1aede0000975fc55c4284516d1a03') in 0.001341333 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dd6de2390e741a5251acbf385c6ff5ea DependenciesID=99963f334b43ca3148082849974a27f2 StaticDependenciesID=73f31098a21ece899ff52bd0a29f0269 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Plugins/FMOD/platforms/win/lib/arm64/fmodstudio.dll
+  importAddress: Guid(a51a0d8250058a0408a258f271dca17e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/platforms/win/lib/arm64/fmodstudio.dll using Guid(a51a0d8250058a0408a258f271dca17e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5377a6b66a5b91809ee9e92f85c99b3c') in 0.001364417 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=db8081db93d5f664dcd75fd1479fa272 DependenciesID=a019922945dc16a5cc497dbb49e9613c StaticDependenciesID=1cb79a09fedf1a92c6f24f5dbd380828 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Plugins/FMOD/platforms/win/lib/x86/resonanceaudio.dll
+  importAddress: Guid(b2c11f1e03736f748bd861d7bf4f8952) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/platforms/win/lib/x86/resonanceaudio.dll using Guid(b2c11f1e03736f748bd861d7bf4f8952) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '16deb6946c6d8a3f158f9ea7aa78a56a') in 0.001355333 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=579fe130437cde6a3f5bda2e18b8d0f5 DependenciesID=a6255b2396bcbb360941f04c81b514e0 StaticDependenciesID=e6ac7a274b82af32ff6d08db84709d7d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Plugins/FMOD/platforms/android/lib/x86/libfmod.so
+  importAddress: Guid(099e80baee62d0c439475fae45e69f4e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/platforms/android/lib/x86/libfmod.so using Guid(099e80baee62d0c439475fae45e69f4e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6e4df9538ac8f658965103102d9056be') in 0.001251625 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=412c7509d9dd5e054317e6412a05803d DependenciesID=7878811488cf010d64e18e433f880edd StaticDependenciesID=e53bdf95f3ddef516f81e262983a26bc 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Plugins/FMOD/platforms/win/lib/x86_64/fmodstudioL.dll
+  importAddress: Guid(60e4a9eecdba948cf9a803f12721bf4a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/platforms/win/lib/x86_64/fmodstudioL.dll using Guid(60e4a9eecdba948cf9a803f12721bf4a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9075197d2a551e5d5e049fffc4bd9833') in 0.001358458 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=672298877b2085095af5c3ca6ec135a6 DependenciesID=3225bf3328f98e744e199fa224bd1030 StaticDependenciesID=8e8d57165c9a47c4e54054c6ac781435 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Plugins/FMOD/platforms/html5/lib/3.1.8/libfmodstudioL.a
+  importAddress: Guid(8ba5025cbb9d0bf499e12351728e7679) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/platforms/html5/lib/3.1.8/libfmodstudioL.a using Guid(8ba5025cbb9d0bf499e12351728e7679) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8241755f727a13869c4221b951a58095') in 0.001382708 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bf602680d95d10905279786d125de6ff DependenciesID=ff87ca708bdf444c8026cb1b893cb22d StaticDependenciesID=e2157346846af4c7df515714af4fbfdb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Plugins/FMOD/platforms/android/lib/armeabi-v7a/libfmodstudio.so
+  importAddress: Guid(cf01ad74bd6e5df46996c61b81ba590c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/platforms/android/lib/armeabi-v7a/libfmodstudio.so using Guid(cf01ad74bd6e5df46996c61b81ba590c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'bdd9ed12c5d65266b885ade53588cace') in 0.001238833 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5440caaaef8261c35af48a66cfe665ea DependenciesID=124d6964c5e21dd92a1f37991b58774d StaticDependenciesID=b3a86bca615fc2b1046c791b183b07c9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Plugins/FMOD/platforms/uwp/lib/arm/fmodstudioL.dll
+  importAddress: Guid(5476dd86ee3260f4bb2283aef1d9a883) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/platforms/uwp/lib/arm/fmodstudioL.dll using Guid(5476dd86ee3260f4bb2283aef1d9a883) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c368f9e352eeec4d38836f24de941bde') in 0.001312042 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4723e86f1b4f88ba3705b67d7b5c4412 DependenciesID=8c7b45e730c54ee66637135f87815082 StaticDependenciesID=17a6113ba0d66bf76cb2a26b0b541236 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Plugins/FMOD/platforms/android/lib/x86/libfmodstudioL.so
+  importAddress: Guid(0975b093811db4e4e9e67bc483ad2299) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/platforms/android/lib/x86/libfmodstudioL.so using Guid(0975b093811db4e4e9e67bc483ad2299) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e904abfbfb5b8f528bcdba1ba7a7ba6d') in 0.002227291 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=372ad13b69316aefc9295c43188da843 DependenciesID=516737b0170a4dccc160ef18ba044f5f StaticDependenciesID=400ae909dedf8f41dc8588c8ad423422 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Plugins/FMOD/platforms/android/lib/x86/libfmodstudio.so
+  importAddress: Guid(a20d361b085100b4997c4e5b0b83af31) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Plugins/FMOD/platforms/android/lib/x86/libfmodstudio.so using Guid(a20d361b085100b4997c4e5b0b83af31) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a4efc4b681e64da8394038299fd3587a') in 0.001475042 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=eacd103ffcec4b99c423fac52acb5820 DependenciesID=8f9ccbf7a4427ed7f3037434738deb02 StaticDependenciesID=6555bae7ce1cb016c775b248f5bfb597 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x174a47000 may have been prematurely finalized
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Performance.Profile-Analyzer.EditorTests.dll at Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Settings.Tests.dll at Library/ScriptAssemblies/Unity.Settings.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TestTools.CodeCoverage.Editor.Compatibility.dll at Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.Compatibility.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Refreshing native plugins compatible for Editor in 2.69 ms, found 4 plugins.
+Native extension for OSXStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 2.65 ms, found 4 plugins.
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.376 seconds
+Domain Reload Profiling: 768ms
+	BeginReloadAssembly (114ms)
+		DisableScriptedObjects (4ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (213ms)
+		LoadAssemblies (139ms)
+		AnalyzeDomain (110ms)
+			TypeCache.Refresh (6ms)
+			BuildScriptInfoCaches (100ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (377ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (164ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+Refreshing native plugins compatible for Editor in 2.84 ms, found 4 plugins.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3632 unused Assets / (0.9 MB). Loaded Objects now: 4152.
+Memory consumption went from 99.2 MB to 98.3 MB.
+Total: 4.983792 ms (FindLiveObjects: 0.181292 ms CreateObjectMapping: 0.097584 ms MarkObjects: 4.044000 ms  DeleteObjects: 0.659833 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Thread 0x16fd0f000 may have been prematurely finalized
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Performance.Profile-Analyzer.EditorTests.dll at Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Settings.Tests.dll at Library/ScriptAssemblies/Unity.Settings.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TestTools.CodeCoverage.Editor.Compatibility.dll at Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.Compatibility.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Refreshing native plugins compatible for Editor in 2.43 ms, found 4 plugins.
+Native extension for OSXStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 2.57 ms, found 4 plugins.
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.357 seconds
+Domain Reload Profiling: 732ms
+	BeginReloadAssembly (111ms)
+		DisableScriptedObjects (4ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (201ms)
+		LoadAssemblies (133ms)
+		AnalyzeDomain (103ms)
+			TypeCache.Refresh (5ms)
+			BuildScriptInfoCaches (94ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (357ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (153ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+Refreshing native plugins compatible for Editor in 2.54 ms, found 4 plugins.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3632 unused Assets / (0.9 MB). Loaded Objects now: 4153.
+Memory consumption went from 95.5 MB to 94.7 MB.
+Total: 4.747917 ms (FindLiveObjects: 0.174042 ms CreateObjectMapping: 0.094917 ms MarkObjects: 3.857166 ms  DeleteObjects: 0.621292 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Thread 0x16fd0f000 may have been prematurely finalized
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Performance.Profile-Analyzer.EditorTests.dll at Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Settings.Tests.dll at Library/ScriptAssemblies/Unity.Settings.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TestTools.CodeCoverage.Editor.Compatibility.dll at Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.Compatibility.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Refreshing native plugins compatible for Editor in 2.66 ms, found 4 plugins.
+Native extension for OSXStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 2.93 ms, found 4 plugins.
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.380 seconds
+Domain Reload Profiling: 766ms
+	BeginReloadAssembly (110ms)
+		DisableScriptedObjects (4ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (213ms)
+		LoadAssemblies (135ms)
+		AnalyzeDomain (110ms)
+			TypeCache.Refresh (5ms)
+			BuildScriptInfoCaches (100ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (380ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (84ms)
+			ProcessInitializeOnLoadAttributes (163ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+Refreshing native plugins compatible for Editor in 2.51 ms, found 4 plugins.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3632 unused Assets / (0.7 MB). Loaded Objects now: 4154.
+Memory consumption went from 95.5 MB to 94.8 MB.
+Total: 4.841584 ms (FindLiveObjects: 0.157916 ms CreateObjectMapping: 0.084334 ms MarkObjects: 4.042000 ms  DeleteObjects: 0.557042 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16fd0f000 may have been prematurely finalized
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Performance.Profile-Analyzer.EditorTests.dll at Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Settings.Tests.dll at Library/ScriptAssemblies/Unity.Settings.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TestTools.CodeCoverage.Editor.Compatibility.dll at Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.Compatibility.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Refreshing native plugins compatible for Editor in 2.61 ms, found 4 plugins.
+Native extension for OSXStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 3.02 ms, found 4 plugins.
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.361 seconds
+Domain Reload Profiling: 745ms
+	BeginReloadAssembly (110ms)
+		DisableScriptedObjects (3ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (208ms)
+		LoadAssemblies (138ms)
+		AnalyzeDomain (104ms)
+			TypeCache.Refresh (5ms)
+			BuildScriptInfoCaches (94ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (361ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (153ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+Refreshing native plugins compatible for Editor in 2.85 ms, found 4 plugins.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3632 unused Assets / (0.6 MB). Loaded Objects now: 4155.
+Memory consumption went from 95.6 MB to 94.9 MB.
+Total: 4.584167 ms (FindLiveObjects: 0.162917 ms CreateObjectMapping: 0.085666 ms MarkObjects: 3.796917 ms  DeleteObjects: 0.538083 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16fd0f000 may have been prematurely finalized
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Performance.Profile-Analyzer.EditorTests.dll at Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Settings.Tests.dll at Library/ScriptAssemblies/Unity.Settings.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TestTools.CodeCoverage.Editor.Compatibility.dll at Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.Compatibility.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Refreshing native plugins compatible for Editor in 2.57 ms, found 4 plugins.
+Native extension for OSXStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 2.79 ms, found 4 plugins.
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.382 seconds
+Domain Reload Profiling: 772ms
+	BeginReloadAssembly (112ms)
+		DisableScriptedObjects (4ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (213ms)
+		LoadAssemblies (138ms)
+		AnalyzeDomain (109ms)
+			TypeCache.Refresh (5ms)
+			BuildScriptInfoCaches (99ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (382ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (84ms)
+			ProcessInitializeOnLoadAttributes (164ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+Refreshing native plugins compatible for Editor in 2.61 ms, found 4 plugins.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3632 unused Assets / (459.0 KB). Loaded Objects now: 4156.
+Memory consumption went from 95.6 MB to 95.1 MB.
+Total: 4.700208 ms (FindLiveObjects: 0.155083 ms CreateObjectMapping: 0.095125 ms MarkObjects: 3.951166 ms  DeleteObjects: 0.498000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
